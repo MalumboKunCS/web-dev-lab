@@ -1,1 +1,1 @@
-"I basically just solidified my skills on basic git commands" 
+"I solidified my skills on basic git commands and set up my environment to create a simple html structured web page" 
