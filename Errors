@@ -2,16 +2,16 @@
 	"resource": "/C:/Users/Administrator/all_server/lib/models/booking.dart",
 	"owner": "_generated_diagnostic_collection_name_#2",
 	"code": {
-		"value": "undefined_method",
+		"value": "instance_access_to_static_member",
 		"target": {
 			"$mid": 1,
-			"path": "/diagnostics/undefined_method",
+			"path": "/diagnostics/instance_access_to_static_member",
 			"scheme": "https",
 			"authority": "dart.dev"
 		}
 	},
 	"severity": 8,
-	"message": "The method 'sendNotificationToUser' isn't defined for the type 'NotificationService'.\nTry correcting the name to the name of an existing method, or defining a method named 'sendNotificationToUser'.",
+	"message": "The static method 'sendNotificationToUser' can't be accessed through an instance.\nTry using the class 'NotificationService' to access the method.",
 	"source": "dart",
 	"startLineNumber": 144,
 	"startColumn": 34,
@@ -21,16 +21,16 @@
 	"resource": "/C:/Users/Administrator/all_server/lib/models/booking.dart",
 	"owner": "_generated_diagnostic_collection_name_#2",
 	"code": {
-		"value": "undefined_method",
+		"value": "instance_access_to_static_member",
 		"target": {
 			"$mid": 1,
-			"path": "/diagnostics/undefined_method",
+			"path": "/diagnostics/instance_access_to_static_member",
 			"scheme": "https",
 			"authority": "dart.dev"
 		}
 	},
 	"severity": 8,
-	"message": "The method 'sendNotificationToUser' isn't defined for the type 'NotificationService'.\nTry correcting the name to the name of an existing method, or defining a method named 'sendNotificationToUser'.",
+	"message": "The static method 'sendNotificationToUser' can't be accessed through an instance.\nTry using the class 'NotificationService' to access the method.",
 	"source": "dart",
 	"startLineNumber": 209,
 	"startColumn": 36,
@@ -132,121 +132,64 @@
 	"endLineNumber": 166,
 	"endColumn": 50
 },{
-	"resource": "/C:/Users/Administrator/all_server/lib/pages/enhanced_register_page.dart",
+	"resource": "/C:/Users/Administrator/all_server/lib/pages/enhanced_login_page.dart",
 	"owner": "_generated_diagnostic_collection_name_#2",
 	"code": {
-		"value": "not_enough_positional_arguments",
+		"value": "missing_required_argument",
 		"target": {
 			"$mid": 1,
-			"path": "/diagnostics/not_enough_positional_arguments",
+			"path": "/diagnostics/missing_required_argument",
 			"scheme": "https",
 			"authority": "dart.dev"
 		}
 	},
 	"severity": 8,
-	"message": "2 positional arguments expected by 'enable2FA', but 1 found.\nTry adding the missing arguments.",
+	"message": "The named parameter 'userId' is required, but there's no corresponding argument.\nTry adding the required argument.",
 	"source": "dart",
-	"startLineNumber": 59,
-	"startColumn": 68,
-	"endLineNumber": 59,
-	"endColumn": 69
+	"startLineNumber": 115,
+	"startColumn": 45,
+	"endLineNumber": 115,
+	"endColumn": 54
 },{
-	"resource": "/C:/Users/Administrator/all_server/lib/pages/enhanced_register_page.dart",
+	"resource": "/C:/Users/Administrator/all_server/lib/pages/enhanced_login_page.dart",
 	"owner": "_generated_diagnostic_collection_name_#2",
 	"code": {
-		"value": "undefined_named_parameter",
+		"value": "missing_required_argument",
 		"target": {
 			"$mid": 1,
-			"path": "/diagnostics/undefined_named_parameter",
+			"path": "/diagnostics/missing_required_argument",
 			"scheme": "https",
 			"authority": "dart.dev"
 		}
 	},
 	"severity": 8,
-	"message": "The named parameter 'userId' isn't defined.\nTry correcting the name to an existing named parameter's name, or defining a named parameter with the name 'userId'.",
+	"message": "The named parameter 'otp' is required, but there's no corresponding argument.\nTry adding the required argument.",
 	"source": "dart",
-	"startLineNumber": 68,
-	"startColumn": 17,
-	"endLineNumber": 68,
-	"endColumn": 23
+	"startLineNumber": 115,
+	"startColumn": 45,
+	"endLineNumber": 115,
+	"endColumn": 54
 },{
-	"resource": "/C:/Users/Administrator/all_server/lib/pages/enhanced_register_page.dart",
+	"resource": "/C:/Users/Administrator/all_server/lib/pages/enhanced_login_page.dart",
 	"owner": "_generated_diagnostic_collection_name_#2",
 	"code": {
-		"value": "undefined_named_parameter",
+		"value": "extra_positional_arguments_could_be_named",
 		"target": {
 			"$mid": 1,
-			"path": "/diagnostics/undefined_named_parameter",
+			"path": "/diagnostics/extra_positional_arguments_could_be_named",
 			"scheme": "https",
 			"authority": "dart.dev"
 		}
 	},
 	"severity": 8,
-	"message": "The named parameter 'isProvider' isn't defined.\nTry correcting the name to an existing named parameter's name, or defining a named parameter with the name 'isProvider'.",
+	"message": "Too many positional arguments: 0 expected, but 2 found.\nTry removing the extra positional arguments, or specifying the name for named arguments.",
 	"source": "dart",
-	"startLineNumber": 69,
-	"startColumn": 17,
-	"endLineNumber": 69,
-	"endColumn": 27
+	"startLineNumber": 116,
+	"startColumn": 9,
+	"endLineNumber": 116,
+	"endColumn": 16
 },{
-	"resource": "/C:/Users/Administrator/all_server/lib/pages/enhanced_register_page.dart",
-	"owner": "_generated_diagnostic_collection_name_#2",
-	"code": {
-		"value": "undefined_named_parameter",
-		"target": {
-			"$mid": 1,
-			"path": "/diagnostics/undefined_named_parameter",
-			"scheme": "https",
-			"authority": "dart.dev"
-		}
-	},
-	"severity": 8,
-	"message": "The named parameter 'firstName' isn't defined.\nTry correcting the name to an existing named parameter's name, or defining a named parameter with the name 'firstName'.",
-	"source": "dart",
-	"startLineNumber": 70,
-	"startColumn": 17,
-	"endLineNumber": 70,
-	"endColumn": 26
-},{
-	"resource": "/C:/Users/Administrator/all_server/lib/pages/enhanced_register_page.dart",
-	"owner": "_generated_diagnostic_collection_name_#2",
-	"code": {
-		"value": "undefined_named_parameter",
-		"target": {
-			"$mid": 1,
-			"path": "/diagnostics/undefined_named_parameter",
-			"scheme": "https",
-			"authority": "dart.dev"
-		}
-	},
-	"severity": 8,
-	"message": "The named parameter 'lastName' isn't defined.\nTry correcting the name to an existing named parameter's name, or defining a named parameter with the name 'lastName'.",
-	"source": "dart",
-	"startLineNumber": 71,
-	"startColumn": 17,
-	"endLineNumber": 71,
-	"endColumn": 25
-},{
-	"resource": "/C:/Users/Administrator/all_server/lib/pages/enhanced_register_page.dart",
-	"owner": "_generated_diagnostic_collection_name_#2",
-	"code": {
-		"value": "undefined_named_parameter",
-		"target": {
-			"$mid": 1,
-			"path": "/diagnostics/undefined_named_parameter",
-			"scheme": "https",
-			"authority": "dart.dev"
-		}
-	},
-	"severity": 8,
-	"message": "The named parameter 'phone' isn't defined.\nTry correcting the name to an existing named parameter's name, or defining a named parameter with the name 'phone'.",
-	"source": "dart",
-	"startLineNumber": 72,
-	"startColumn": 17,
-	"endLineNumber": 72,
-	"endColumn": 22
-},{
-	"resource": "/C:/Users/Administrator/all_server/lib/pages/enhanced_register_page.dart",
+	"resource": "/C:/Users/Administrator/all_server/lib/pages/enhanced_login_page.dart",
 	"owner": "_generated_diagnostic_collection_name_#2",
 	"code": {
 		"value": "unused_import",
@@ -258,12 +201,97 @@
 		}
 	},
 	"severity": 4,
-	"message": "Unused import: 'package:all_server/auth.dart'.\nTry removing the import directive.",
+	"message": "Unused import: 'package:all_server/pages/enhanced_register_page.dart'.\nTry removing the import directive.",
 	"source": "dart",
-	"startLineNumber": 3,
+	"startLineNumber": 7,
 	"startColumn": 8,
-	"endLineNumber": 3,
-	"endColumn": 38
+	"endLineNumber": 7,
+	"endColumn": 62
+},{
+	"resource": "/C:/Users/Administrator/all_server/lib/pages/enhanced_login_page.dart",
+	"owner": "_generated_diagnostic_collection_name_#2",
+	"code": {
+		"value": "unused_import",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostics/unused_import",
+			"scheme": "https",
+			"authority": "dart.dev"
+		}
+	},
+	"severity": 4,
+	"message": "Unused import: 'package:all_server/pages/two_factor_verification_page.dart'.\nTry removing the import directive.",
+	"source": "dart",
+	"startLineNumber": 8,
+	"startColumn": 8,
+	"endLineNumber": 8,
+	"endColumn": 68
+},{
+	"resource": "/C:/Users/Administrator/all_server/lib/pages/enhanced_login_page.dart",
+	"owner": "_generated_diagnostic_collection_name_#2",
+	"code": {
+		"value": "deprecated_member_use",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostics/deprecated_member_use",
+			"scheme": "https",
+			"authority": "dart.dev"
+		}
+	},
+	"severity": 2,
+	"message": "'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss.\nTry replacing the use of the deprecated member with the replacement.",
+	"source": "dart",
+	"startLineNumber": 266,
+	"startColumn": 52,
+	"endLineNumber": 266,
+	"endColumn": 63,
+	"tags": [
+		2
+	]
+},{
+	"resource": "/C:/Users/Administrator/all_server/lib/pages/enhanced_login_page.dart",
+	"owner": "_generated_diagnostic_collection_name_#2",
+	"code": {
+		"value": "deprecated_member_use",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostics/deprecated_member_use",
+			"scheme": "https",
+			"authority": "dart.dev"
+		}
+	},
+	"severity": 2,
+	"message": "'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss.\nTry replacing the use of the deprecated member with the replacement.",
+	"source": "dart",
+	"startLineNumber": 309,
+	"startColumn": 47,
+	"endLineNumber": 309,
+	"endColumn": 58,
+	"tags": [
+		2
+	]
+},{
+	"resource": "/C:/Users/Administrator/all_server/lib/pages/enhanced_login_page.dart",
+	"owner": "_generated_diagnostic_collection_name_#2",
+	"code": "todo",
+	"severity": 2,
+	"message": "TODO: Implement Google Sign In",
+	"source": "dart",
+	"startLineNumber": 544,
+	"startColumn": 34,
+	"endLineNumber": 544,
+	"endColumn": 64
+},{
+	"resource": "/C:/Users/Administrator/all_server/lib/pages/enhanced_login_page.dart",
+	"owner": "_generated_diagnostic_collection_name_#2",
+	"code": "todo",
+	"severity": 2,
+	"message": "TODO: Implement Facebook Sign In",
+	"source": "dart",
+	"startLineNumber": 574,
+	"startColumn": 34,
+	"endLineNumber": 574,
+	"endColumn": 66
 },{
 	"resource": "/C:/Users/Administrator/all_server/lib/pages/home_page.dart",
 	"owner": "_generated_diagnostic_collection_name_#2",
@@ -287,40 +315,40 @@
 	"resource": "/C:/Users/Administrator/all_server/lib/pages/home_page.dart",
 	"owner": "_generated_diagnostic_collection_name_#2",
 	"code": {
-		"value": "instance_access_to_static_member",
+		"value": "undefined_operator",
 		"target": {
 			"$mid": 1,
-			"path": "/diagnostics/instance_access_to_static_member",
+			"path": "/diagnostics/undefined_operator",
 			"scheme": "https",
 			"authority": "dart.dev"
 		}
 	},
 	"severity": 8,
-	"message": "The static method 'getAddressFromCoordinates' can't be accessed through an instance.\nTry using the class 'SearchService' to access the method.",
+	"message": "The operator '[]' isn't defined for the type 'Position'.\nTry defining the operator '[]'.",
 	"source": "dart",
-	"startLineNumber": 80,
-	"startColumn": 59,
-	"endLineNumber": 80,
-	"endColumn": 84
+	"startLineNumber": 138,
+	"startColumn": 36,
+	"endLineNumber": 138,
+	"endColumn": 48
 },{
 	"resource": "/C:/Users/Administrator/all_server/lib/pages/home_page.dart",
 	"owner": "_generated_diagnostic_collection_name_#2",
 	"code": {
-		"value": "instance_access_to_static_member",
+		"value": "undefined_operator",
 		"target": {
 			"$mid": 1,
-			"path": "/diagnostics/instance_access_to_static_member",
+			"path": "/diagnostics/undefined_operator",
 			"scheme": "https",
 			"authority": "dart.dev"
 		}
 	},
 	"severity": 8,
-	"message": "The static method 'searchProviders' can't be accessed through an instance.\nTry using the class 'SearchService' to access the method.",
+	"message": "The operator '[]' isn't defined for the type 'Position'.\nTry defining the operator '[]'.",
 	"source": "dart",
-	"startLineNumber": 136,
-	"startColumn": 53,
-	"endLineNumber": 136,
-	"endColumn": 68
+	"startLineNumber": 139,
+	"startColumn": 37,
+	"endLineNumber": 139,
+	"endColumn": 50
 },{
 	"resource": "/C:/Users/Administrator/all_server/lib/pages/home_page.dart",
 	"owner": "_generated_diagnostic_collection_name_#2",
@@ -359,6 +387,25 @@
 	"startColumn": 64,
 	"endLineNumber": 399,
 	"endColumn": 73
+},{
+	"resource": "/C:/Users/Administrator/all_server/lib/pages/home_page.dart",
+	"owner": "_generated_diagnostic_collection_name_#2",
+	"code": {
+		"value": "unused_field",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostics/unused_field",
+			"scheme": "https",
+			"authority": "dart.dev"
+		}
+	},
+	"severity": 4,
+	"message": "The value of the field '_searchService' isn't used.\nTry removing the field, or using it.",
+	"source": "dart",
+	"startLineNumber": 25,
+	"startColumn": 23,
+	"endLineNumber": 25,
+	"endColumn": 37
 },{
 	"resource": "/C:/Users/Administrator/all_server/lib/pages/home_page.dart",
 	"owner": "_generated_diagnostic_collection_name_#2",
@@ -416,44 +463,6 @@
 	"startColumn": 29,
 	"endLineNumber": 68,
 	"endColumn": 42
-},{
-	"resource": "/C:/Users/Administrator/all_server/lib/pages/provider_detail_page.dart",
-	"owner": "_generated_diagnostic_collection_name_#2",
-	"code": {
-		"value": "undefined_getter",
-		"target": {
-			"$mid": 1,
-			"path": "/diagnostics/undefined_getter",
-			"scheme": "https",
-			"authority": "dart.dev"
-		}
-	},
-	"severity": 8,
-	"message": "The getter 'customerName' isn't defined for the type 'Review'.\nTry importing the library that defines 'customerName', correcting the name to the name of an existing getter, or defining a getter or field named 'customerName'.",
-	"source": "dart",
-	"startLineNumber": 584,
-	"startColumn": 32,
-	"endLineNumber": 584,
-	"endColumn": 44
-},{
-	"resource": "/C:/Users/Administrator/all_server/lib/pages/provider_detail_page.dart",
-	"owner": "_generated_diagnostic_collection_name_#2",
-	"code": {
-		"value": "undefined_getter",
-		"target": {
-			"$mid": 1,
-			"path": "/diagnostics/undefined_getter",
-			"scheme": "https",
-			"authority": "dart.dev"
-		}
-	},
-	"severity": 8,
-	"message": "The getter 'customerName' isn't defined for the type 'Review'.\nTry importing the library that defines 'customerName', correcting the name to the name of an existing getter, or defining a getter or field named 'customerName'.",
-	"source": "dart",
-	"startLineNumber": 599,
-	"startColumn": 36,
-	"endLineNumber": 599,
-	"endColumn": 48
 },{
 	"resource": "/C:/Users/Administrator/all_server/lib/pages/provider_detail_page.dart",
 	"owner": "_generated_diagnostic_collection_name_#2",
@@ -564,26 +573,18 @@
 	"endLineNumber": 335,
 	"endColumn": 34
 },{
-	"resource": "/C:/Users/Administrator/all_server/lib/pages/search_page.dart",
+	"resource": "/C:/Users/Administrator/all_server/lib/pages/provider_detail_page.dart",
 	"owner": "_generated_diagnostic_collection_name_#2",
-	"code": {
-		"value": "instance_access_to_static_member",
-		"target": {
-			"$mid": 1,
-			"path": "/diagnostics/instance_access_to_static_member",
-			"scheme": "https",
-			"authority": "dart.dev"
-		}
-	},
-	"severity": 8,
-	"message": "The static method 'getAddressFromCoordinates' can't be accessed through an instance.\nTry using the class 'SearchService' to access the method.",
+	"code": "todo",
+	"severity": 2,
+	"message": "TODO: Fetch actual user name",
 	"source": "dart",
-	"startLineNumber": 75,
-	"startColumn": 59,
-	"endLineNumber": 75,
-	"endColumn": 84
+	"startLineNumber": 599,
+	"startColumn": 73,
+	"endLineNumber": 599,
+	"endColumn": 101
 },{
-	"resource": "/C:/Users/Administrator/all_server/lib/pages/search_page.dart",
+	"resource": "/C:/Users/Administrator/all_server/lib/pages/provider_home_page.dart",
 	"owner": "_generated_diagnostic_collection_name_#2",
 	"code": {
 		"value": "instance_access_to_static_member",
@@ -595,14 +596,33 @@
 		}
 	},
 	"severity": 8,
-	"message": "The static method 'getSearchSuggestions' can't be accessed through an instance.\nTry using the class 'SearchService' to access the method.",
+	"message": "The static method 'getProvider' can't be accessed through an instance.\nTry using the class 'ProviderService' to access the method.",
+	"source": "dart",
+	"startLineNumber": 73,
+	"startColumn": 47,
+	"endLineNumber": 73,
+	"endColumn": 58
+},{
+	"resource": "/C:/Users/Administrator/all_server/lib/pages/provider_profile_page.dart",
+	"owner": "_generated_diagnostic_collection_name_#2",
+	"code": {
+		"value": "instance_access_to_static_member",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostics/instance_access_to_static_member",
+			"scheme": "https",
+			"authority": "dart.dev"
+		}
+	},
+	"severity": 8,
+	"message": "The static method 'updateProvider' can't be accessed through an instance.\nTry using the class 'ProviderService' to access the method.",
 	"source": "dart",
 	"startLineNumber": 96,
-	"startColumn": 55,
+	"startColumn": 46,
 	"endLineNumber": 96,
-	"endColumn": 75
+	"endColumn": 60
 },{
-	"resource": "/C:/Users/Administrator/all_server/lib/pages/search_page.dart",
+	"resource": "/C:/Users/Administrator/all_server/lib/pages/provider_profile_page.dart",
 	"owner": "_generated_diagnostic_collection_name_#2",
 	"code": {
 		"value": "instance_access_to_static_member",
@@ -614,12 +634,69 @@
 		}
 	},
 	"severity": 8,
-	"message": "The static method 'searchProviders' can't be accessed through an instance.\nTry using the class 'SearchService' to access the method.",
+	"message": "The static method 'updateProvider' can't be accessed through an instance.\nTry using the class 'ProviderService' to access the method.",
 	"source": "dart",
-	"startLineNumber": 120,
-	"startColumn": 53,
-	"endLineNumber": 120,
-	"endColumn": 68
+	"startLineNumber": 156,
+	"startColumn": 48,
+	"endLineNumber": 156,
+	"endColumn": 62
+},{
+	"resource": "/C:/Users/Administrator/all_server/lib/pages/provider_registration_page.dart",
+	"owner": "_generated_diagnostic_collection_name_#2",
+	"code": {
+		"value": "instance_access_to_static_member",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostics/instance_access_to_static_member",
+			"scheme": "https",
+			"authority": "dart.dev"
+		}
+	},
+	"severity": 8,
+	"message": "The static method 'createProvider' can't be accessed through an instance.\nTry using the class 'ProviderService' to access the method.",
+	"source": "dart",
+	"startLineNumber": 90,
+	"startColumn": 48,
+	"endLineNumber": 90,
+	"endColumn": 62
+},{
+	"resource": "/C:/Users/Administrator/all_server/lib/pages/search_page.dart",
+	"owner": "_generated_diagnostic_collection_name_#2",
+	"code": {
+		"value": "undefined_operator",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostics/undefined_operator",
+			"scheme": "https",
+			"authority": "dart.dev"
+		}
+	},
+	"severity": 8,
+	"message": "The operator '[]' isn't defined for the type 'Position'.\nTry defining the operator '[]'.",
+	"source": "dart",
+	"startLineNumber": 123,
+	"startColumn": 36,
+	"endLineNumber": 123,
+	"endColumn": 48
+},{
+	"resource": "/C:/Users/Administrator/all_server/lib/pages/search_page.dart",
+	"owner": "_generated_diagnostic_collection_name_#2",
+	"code": {
+		"value": "undefined_operator",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostics/undefined_operator",
+			"scheme": "https",
+			"authority": "dart.dev"
+		}
+	},
+	"severity": 8,
+	"message": "The operator '[]' isn't defined for the type 'Position'.\nTry defining the operator '[]'.",
+	"source": "dart",
+	"startLineNumber": 124,
+	"startColumn": 37,
+	"endLineNumber": 124,
+	"endColumn": 50
 },{
 	"resource": "/C:/Users/Administrator/all_server/lib/pages/search_page.dart",
 	"owner": "_generated_diagnostic_collection_name_#2",
@@ -662,6 +739,25 @@
 	"resource": "/C:/Users/Administrator/all_server/lib/pages/search_page.dart",
 	"owner": "_generated_diagnostic_collection_name_#2",
 	"code": {
+		"value": "unused_field",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostics/unused_field",
+			"scheme": "https",
+			"authority": "dart.dev"
+		}
+	},
+	"severity": 4,
+	"message": "The value of the field '_searchService' isn't used.\nTry removing the field, or using it.",
+	"source": "dart",
+	"startLineNumber": 17,
+	"startColumn": 23,
+	"endLineNumber": 17,
+	"endColumn": 37
+},{
+	"resource": "/C:/Users/Administrator/all_server/lib/pages/search_page.dart",
+	"owner": "_generated_diagnostic_collection_name_#2",
+	"code": {
 		"value": "use_build_context_synchronously",
 		"target": {
 			"$mid": 1,
@@ -678,770 +774,7 @@
 	"endLineNumber": 140,
 	"endColumn": 35
 },{
-	"resource": "/C:/Users/Administrator/all_server/lib/pages/two_factor_verification_page.dart",
-	"owner": "_generated_diagnostic_collection_name_#2",
-	"code": {
-		"value": "undefined_named_parameter",
-		"target": {
-			"$mid": 1,
-			"path": "/diagnostics/undefined_named_parameter",
-			"scheme": "https",
-			"authority": "dart.dev"
-		}
-	},
-	"severity": 8,
-	"message": "The named parameter 'userId' isn't defined.\nTry correcting the name to an existing named parameter's name, or defining a named parameter with the name 'userId'.",
-	"source": "dart",
-	"startLineNumber": 66,
-	"startColumn": 9,
-	"endLineNumber": 66,
-	"endColumn": 15
-},{
-	"resource": "/C:/Users/Administrator/all_server/lib/pages/two_factor_verification_page.dart",
-	"owner": "_generated_diagnostic_collection_name_#2",
-	"code": {
-		"value": "not_enough_positional_arguments",
-		"target": {
-			"$mid": 1,
-			"path": "/diagnostics/not_enough_positional_arguments",
-			"scheme": "https",
-			"authority": "dart.dev"
-		}
-	},
-	"severity": 8,
-	"message": "2 positional arguments expected by 'verifyOTP', but 0 found.\nTry adding the missing arguments.",
-	"source": "dart",
-	"startLineNumber": 66,
-	"startColumn": 9,
-	"endLineNumber": 66,
-	"endColumn": 15
-},{
-	"resource": "/C:/Users/Administrator/all_server/lib/pages/two_factor_verification_page.dart",
-	"owner": "_generated_diagnostic_collection_name_#2",
-	"code": {
-		"value": "undefined_named_parameter",
-		"target": {
-			"$mid": 1,
-			"path": "/diagnostics/undefined_named_parameter",
-			"scheme": "https",
-			"authority": "dart.dev"
-		}
-	},
-	"severity": 8,
-	"message": "The named parameter 'otp' isn't defined.\nTry correcting the name to an existing named parameter's name, or defining a named parameter with the name 'otp'.",
-	"source": "dart",
-	"startLineNumber": 67,
-	"startColumn": 9,
-	"endLineNumber": 67,
-	"endColumn": 12
-},{
-	"resource": "/C:/Users/Administrator/all_server/lib/pages/two_factor_verification_page.dart",
-	"owner": "_generated_diagnostic_collection_name_#2",
-	"code": {
-		"value": "undefined_named_parameter",
-		"target": {
-			"$mid": 1,
-			"path": "/diagnostics/undefined_named_parameter",
-			"scheme": "https",
-			"authority": "dart.dev"
-		}
-	},
-	"severity": 8,
-	"message": "The named parameter 'userId' isn't defined.\nTry correcting the name to an existing named parameter's name, or defining a named parameter with the name 'userId'.",
-	"source": "dart",
-	"startLineNumber": 107,
-	"startColumn": 9,
-	"endLineNumber": 107,
-	"endColumn": 15
-},{
-	"resource": "/C:/Users/Administrator/all_server/lib/pages/two_factor_verification_page.dart",
-	"owner": "_generated_diagnostic_collection_name_#2",
-	"code": {
-		"value": "not_enough_positional_arguments",
-		"target": {
-			"$mid": 1,
-			"path": "/diagnostics/not_enough_positional_arguments",
-			"scheme": "https",
-			"authority": "dart.dev"
-		}
-	},
-	"severity": 8,
-	"message": "2 positional arguments expected by 'sendOTP', but 0 found.\nTry adding the missing arguments.",
-	"source": "dart",
-	"startLineNumber": 107,
-	"startColumn": 9,
-	"endLineNumber": 107,
-	"endColumn": 15
-},{
-	"resource": "/C:/Users/Administrator/all_server/lib/pages/two_factor_verification_page.dart",
-	"owner": "_generated_diagnostic_collection_name_#2",
-	"code": {
-		"value": "undefined_named_parameter",
-		"target": {
-			"$mid": 1,
-			"path": "/diagnostics/undefined_named_parameter",
-			"scheme": "https",
-			"authority": "dart.dev"
-		}
-	},
-	"severity": 8,
-	"message": "The named parameter 'email' isn't defined.\nTry correcting the name to an existing named parameter's name, or defining a named parameter with the name 'email'.",
-	"source": "dart",
-	"startLineNumber": 108,
-	"startColumn": 9,
-	"endLineNumber": 108,
-	"endColumn": 14
-},{
-	"resource": "/C:/Users/Administrator/all_server/lib/pages/two_factor_verification_page.dart",
-	"owner": "_generated_diagnostic_collection_name_#2",
-	"code": {
-		"value": "use_build_context_synchronously",
-		"target": {
-			"$mid": 1,
-			"path": "/diagnostics/use_build_context_synchronously",
-			"scheme": "https",
-			"authority": "dart.dev"
-		}
-	},
-	"severity": 2,
-	"message": "Don't use 'BuildContext's across async gaps.\nTry rewriting the code to not use the 'BuildContext', or guard the use with a 'mounted' check.",
-	"source": "dart",
-	"startLineNumber": 118,
-	"startColumn": 28,
-	"endLineNumber": 118,
-	"endColumn": 35
-},{
-	"resource": "/C:/Users/Administrator/all_server/lib/services/admin_service.dart",
-	"owner": "_generated_diagnostic_collection_name_#2",
-	"code": {
-		"value": "undefined_method",
-		"target": {
-			"$mid": 1,
-			"path": "/diagnostics/undefined_method",
-			"scheme": "https",
-			"authority": "dart.dev"
-		}
-	},
-	"severity": 8,
-	"message": "The method 'sendNotificationToUser' isn't defined for the type 'NotificationService'.\nTry correcting the name to the name of an existing method, or defining a method named 'sendNotificationToUser'.",
-	"source": "dart",
-	"startLineNumber": 48,
-	"startColumn": 34,
-	"endLineNumber": 48,
-	"endColumn": 56
-},{
-	"resource": "/C:/Users/Administrator/all_server/lib/services/admin_service.dart",
-	"owner": "_generated_diagnostic_collection_name_#2",
-	"code": {
-		"value": "undefined_method",
-		"target": {
-			"$mid": 1,
-			"path": "/diagnostics/undefined_method",
-			"scheme": "https",
-			"authority": "dart.dev"
-		}
-	},
-	"severity": 8,
-	"message": "The method 'sendNotificationToUser' isn't defined for the type 'NotificationService'.\nTry correcting the name to the name of an existing method, or defining a method named 'sendNotificationToUser'.",
-	"source": "dart",
-	"startLineNumber": 77,
-	"startColumn": 34,
-	"endLineNumber": 77,
-	"endColumn": 56
-},{
-	"resource": "/C:/Users/Administrator/all_server/lib/services/admin_service.dart",
-	"owner": "_generated_diagnostic_collection_name_#2",
-	"code": {
-		"value": "undefined_method",
-		"target": {
-			"$mid": 1,
-			"path": "/diagnostics/undefined_method",
-			"scheme": "https",
-			"authority": "dart.dev"
-		}
-	},
-	"severity": 8,
-	"message": "The method 'sendNotificationToUser' isn't defined for the type 'NotificationService'.\nTry correcting the name to the name of an existing method, or defining a method named 'sendNotificationToUser'.",
-	"source": "dart",
-	"startLineNumber": 106,
-	"startColumn": 34,
-	"endLineNumber": 106,
-	"endColumn": 56
-},{
-	"resource": "/C:/Users/Administrator/all_server/lib/services/admin_service.dart",
-	"owner": "_generated_diagnostic_collection_name_#2",
-	"code": {
-		"value": "undefined_method",
-		"target": {
-			"$mid": 1,
-			"path": "/diagnostics/undefined_method",
-			"scheme": "https",
-			"authority": "dart.dev"
-		}
-	},
-	"severity": 8,
-	"message": "The method 'sendNotificationToUser' isn't defined for the type 'NotificationService'.\nTry correcting the name to the name of an existing method, or defining a method named 'sendNotificationToUser'.",
-	"source": "dart",
-	"startLineNumber": 134,
-	"startColumn": 34,
-	"endLineNumber": 134,
-	"endColumn": 56
-},{
-	"resource": "/C:/Users/Administrator/all_server/lib/services/admin_service.dart",
-	"owner": "_generated_diagnostic_collection_name_#2",
-	"code": {
-		"value": "undefined_method",
-		"target": {
-			"$mid": 1,
-			"path": "/diagnostics/undefined_method",
-			"scheme": "https",
-			"authority": "dart.dev"
-		}
-	},
-	"severity": 8,
-	"message": "The method 'sendNotificationToUser' isn't defined for the type 'NotificationService'.\nTry correcting the name to the name of an existing method, or defining a method named 'sendNotificationToUser'.",
-	"source": "dart",
-	"startLineNumber": 194,
-	"startColumn": 36,
-	"endLineNumber": 194,
-	"endColumn": 58
-},{
-	"resource": "/C:/Users/Administrator/all_server/lib/services/booking_service.dart",
-	"owner": "_generated_diagnostic_collection_name_#2",
-	"code": {
-		"value": "const_initialized_with_non_constant_value",
-		"target": {
-			"$mid": 1,
-			"path": "/diagnostics/const_initialized_with_non_constant_value",
-			"scheme": "https",
-			"authority": "dart.dev"
-		}
-	},
-	"severity": 8,
-	"message": "Const variables must be initialized with a constant value.\nTry changing the initializer to be a constant expression.",
-	"source": "dart",
-	"startLineNumber": 8,
-	"startColumn": 47,
-	"endLineNumber": 8,
-	"endColumn": 73
-},{
-	"resource": "/C:/Users/Administrator/all_server/lib/services/booking_service.dart",
-	"owner": "_generated_diagnostic_collection_name_#2",
-	"code": {
-		"value": "const_initialized_with_non_constant_value",
-		"target": {
-			"$mid": 1,
-			"path": "/diagnostics/const_initialized_with_non_constant_value",
-			"scheme": "https",
-			"authority": "dart.dev"
-		}
-	},
-	"severity": 8,
-	"message": "Const variables must be initialized with a constant value.\nTry changing the initializer to be a constant expression.",
-	"source": "dart",
-	"startLineNumber": 9,
-	"startColumn": 37,
-	"endLineNumber": 9,
-	"endColumn": 58
-},{
-	"resource": "/C:/Users/Administrator/all_server/lib/services/booking_service.dart",
-	"owner": "_generated_diagnostic_collection_name_#2",
-	"code": {
-		"value": "undefined_identifier",
-		"target": {
-			"$mid": 1,
-			"path": "/diagnostics/undefined_identifier",
-			"scheme": "https",
-			"authority": "dart.dev"
-		}
-	},
-	"severity": 8,
-	"message": "Undefined name 'PaymentStatus'.\nTry correcting the name to one that is defined, or defining the name.",
-	"source": "dart",
-	"startLineNumber": 46,
-	"startColumn": 26,
-	"endLineNumber": 46,
-	"endColumn": 39
-},{
-	"resource": "/C:/Users/Administrator/all_server/lib/services/booking_service.dart",
-	"owner": "_generated_diagnostic_collection_name_#2",
-	"code": {
-		"value": "not_enough_positional_arguments",
-		"target": {
-			"$mid": 1,
-			"path": "/diagnostics/not_enough_positional_arguments",
-			"scheme": "https",
-			"authority": "dart.dev"
-		}
-	},
-	"severity": 8,
-	"message": "2 positional arguments expected by 'fromMap', but 1 found.\nTry adding the missing arguments.",
-	"source": "dart",
-	"startLineNumber": 110,
-	"startColumn": 42,
-	"endLineNumber": 110,
-	"endColumn": 43
-},{
-	"resource": "/C:/Users/Administrator/all_server/lib/services/booking_service.dart",
-	"owner": "_generated_diagnostic_collection_name_#2",
-	"code": {
-		"value": "not_enough_positional_arguments",
-		"target": {
-			"$mid": 1,
-			"path": "/diagnostics/not_enough_positional_arguments",
-			"scheme": "https",
-			"authority": "dart.dev"
-		}
-	},
-	"severity": 8,
-	"message": "2 positional arguments expected by 'fromMap', but 1 found.\nTry adding the missing arguments.",
-	"source": "dart",
-	"startLineNumber": 370,
-	"startColumn": 34,
-	"endLineNumber": 370,
-	"endColumn": 35
-},{
-	"resource": "/C:/Users/Administrator/all_server/lib/services/booking_service.dart",
-	"owner": "_generated_diagnostic_collection_name_#2",
-	"code": {
-		"value": "undefined_enum_constant",
-		"target": {
-			"$mid": 1,
-			"path": "/diagnostics/undefined_enum_constant",
-			"scheme": "https",
-			"authority": "dart.dev"
-		}
-	},
-	"severity": 8,
-	"message": "There's no constant named 'confirmed' in 'BookingStatus'.\nTry correcting the name to the name of an existing constant, or defining a constant named 'confirmed'.",
-	"source": "dart",
-	"startLineNumber": 394,
-	"startColumn": 27,
-	"endLineNumber": 394,
-	"endColumn": 36
-},{
-	"resource": "/C:/Users/Administrator/all_server/lib/services/booking_service.dart",
-	"owner": "_generated_diagnostic_collection_name_#2",
-	"code": {
-		"value": "undefined_enum_constant",
-		"target": {
-			"$mid": 1,
-			"path": "/diagnostics/undefined_enum_constant",
-			"scheme": "https",
-			"authority": "dart.dev"
-		}
-	},
-	"severity": 8,
-	"message": "There's no constant named 'confirmed' in 'BookingStatus'.\nTry correcting the name to the name of an existing constant, or defining a constant named 'confirmed'.",
-	"source": "dart",
-	"startLineNumber": 415,
-	"startColumn": 21,
-	"endLineNumber": 415,
-	"endColumn": 30
-},{
-	"resource": "/C:/Users/Administrator/all_server/lib/services/booking_service.dart",
-	"owner": "_generated_diagnostic_collection_name_#2",
-	"code": {
-		"value": "unused_field",
-		"target": {
-			"$mid": 1,
-			"path": "/diagnostics/unused_field",
-			"scheme": "https",
-			"authority": "dart.dev"
-		}
-	},
-	"severity": 4,
-	"message": "The value of the field '_auth' isn't used.\nTry removing the field, or using it.",
-	"source": "dart",
-	"startLineNumber": 9,
-	"startColumn": 29,
-	"endLineNumber": 9,
-	"endColumn": 34
-},{
-	"resource": "/C:/Users/Administrator/all_server/lib/services/notification_service.dart",
-	"owner": "_generated_diagnostic_collection_name_#2",
-	"code": {
-		"value": "const_initialized_with_non_constant_value",
-		"target": {
-			"$mid": 1,
-			"path": "/diagnostics/const_initialized_with_non_constant_value",
-			"scheme": "https",
-			"authority": "dart.dev"
-		}
-	},
-	"severity": 8,
-	"message": "Const variables must be initialized with a constant value.\nTry changing the initializer to be a constant expression.",
-	"source": "dart",
-	"startLineNumber": 7,
-	"startColumn": 47,
-	"endLineNumber": 7,
-	"endColumn": 73
-},{
-	"resource": "/C:/Users/Administrator/all_server/lib/services/notification_service.dart",
-	"owner": "_generated_diagnostic_collection_name_#2",
-	"code": {
-		"value": "const_initialized_with_non_constant_value",
-		"target": {
-			"$mid": 1,
-			"path": "/diagnostics/const_initialized_with_non_constant_value",
-			"scheme": "https",
-			"authority": "dart.dev"
-		}
-	},
-	"severity": 8,
-	"message": "Const variables must be initialized with a constant value.\nTry changing the initializer to be a constant expression.",
-	"source": "dart",
-	"startLineNumber": 8,
-	"startColumn": 37,
-	"endLineNumber": 8,
-	"endColumn": 58
-},{
-	"resource": "/C:/Users/Administrator/all_server/lib/services/notification_service.dart",
-	"owner": "_generated_diagnostic_collection_name_#2",
-	"code": {
-		"value": "const_initialized_with_non_constant_value",
-		"target": {
-			"$mid": 1,
-			"path": "/diagnostics/const_initialized_with_non_constant_value",
-			"scheme": "https",
-			"authority": "dart.dev"
-		}
-	},
-	"severity": 8,
-	"message": "Const variables must be initialized with a constant value.\nTry changing the initializer to be a constant expression.",
-	"source": "dart",
-	"startLineNumber": 9,
-	"startColumn": 47,
-	"endLineNumber": 9,
-	"endColumn": 73
-},{
-	"resource": "/C:/Users/Administrator/all_server/lib/services/notification_service.dart",
-	"owner": "_generated_diagnostic_collection_name_#2",
-	"code": {
-		"value": "undefined_method",
-		"target": {
-			"$mid": 1,
-			"path": "/diagnostics/undefined_method",
-			"scheme": "https",
-			"authority": "dart.dev"
-		}
-	},
-	"severity": 8,
-	"message": "The method 'debugPrint' isn't defined for the type 'NotificationService'.\nTry correcting the name to the name of an existing method, or defining a method named 'debugPrint'.",
-	"source": "dart",
-	"startLineNumber": 62,
-	"startColumn": 7,
-	"endLineNumber": 62,
-	"endColumn": 17
-},{
-	"resource": "/C:/Users/Administrator/all_server/lib/services/notification_service.dart",
-	"owner": "_generated_diagnostic_collection_name_#2",
-	"code": {
-		"value": "undefined_method",
-		"target": {
-			"$mid": 1,
-			"path": "/diagnostics/undefined_method",
-			"scheme": "https",
-			"authority": "dart.dev"
-		}
-	},
-	"severity": 8,
-	"message": "The method 'debugPrint' isn't defined for the type 'NotificationService'.\nTry correcting the name to the name of an existing method, or defining a method named 'debugPrint'.",
-	"source": "dart",
-	"startLineNumber": 96,
-	"startColumn": 7,
-	"endLineNumber": 96,
-	"endColumn": 17
-},{
-	"resource": "/C:/Users/Administrator/all_server/lib/services/notification_service.dart",
-	"owner": "_generated_diagnostic_collection_name_#2",
-	"code": {
-		"value": "undefined_method",
-		"target": {
-			"$mid": 1,
-			"path": "/diagnostics/undefined_method",
-			"scheme": "https",
-			"authority": "dart.dev"
-		}
-	},
-	"severity": 8,
-	"message": "The method 'debugPrint' isn't defined for the type 'NotificationService'.\nTry correcting the name to the name of an existing method, or defining a method named 'debugPrint'.",
-	"source": "dart",
-	"startLineNumber": 120,
-	"startColumn": 7,
-	"endLineNumber": 120,
-	"endColumn": 17
-},{
-	"resource": "/C:/Users/Administrator/all_server/lib/services/notification_service.dart",
-	"owner": "_generated_diagnostic_collection_name_#2",
-	"code": {
-		"value": "undefined_method",
-		"target": {
-			"$mid": 1,
-			"path": "/diagnostics/undefined_method",
-			"scheme": "https",
-			"authority": "dart.dev"
-		}
-	},
-	"severity": 8,
-	"message": "The method 'debugPrint' isn't defined for the type 'NotificationService'.\nTry correcting the name to the name of an existing method, or defining a method named 'debugPrint'.",
-	"source": "dart",
-	"startLineNumber": 148,
-	"startColumn": 7,
-	"endLineNumber": 148,
-	"endColumn": 17
-},{
-	"resource": "/C:/Users/Administrator/all_server/lib/services/notification_service.dart",
-	"owner": "_generated_diagnostic_collection_name_#2",
-	"code": {
-		"value": "undefined_method",
-		"target": {
-			"$mid": 1,
-			"path": "/diagnostics/undefined_method",
-			"scheme": "https",
-			"authority": "dart.dev"
-		}
-	},
-	"severity": 8,
-	"message": "The method 'debugPrint' isn't defined for the type 'NotificationService'.\nTry correcting the name to the name of an existing method, or defining a method named 'debugPrint'.",
-	"source": "dart",
-	"startLineNumber": 166,
-	"startColumn": 7,
-	"endLineNumber": 166,
-	"endColumn": 17
-},{
-	"resource": "/C:/Users/Administrator/all_server/lib/services/notification_service.dart",
-	"owner": "_generated_diagnostic_collection_name_#2",
-	"code": {
-		"value": "undefined_method",
-		"target": {
-			"$mid": 1,
-			"path": "/diagnostics/undefined_method",
-			"scheme": "https",
-			"authority": "dart.dev"
-		}
-	},
-	"severity": 8,
-	"message": "The method 'debugPrint' isn't defined for the type 'NotificationService'.\nTry correcting the name to the name of an existing method, or defining a method named 'debugPrint'.",
-	"source": "dart",
-	"startLineNumber": 189,
-	"startColumn": 7,
-	"endLineNumber": 189,
-	"endColumn": 17
-},{
-	"resource": "/C:/Users/Administrator/all_server/lib/services/notification_service.dart",
-	"owner": "_generated_diagnostic_collection_name_#2",
-	"code": {
-		"value": "undefined_method",
-		"target": {
-			"$mid": 1,
-			"path": "/diagnostics/undefined_method",
-			"scheme": "https",
-			"authority": "dart.dev"
-		}
-	},
-	"severity": 8,
-	"message": "The method 'debugPrint' isn't defined for the type 'NotificationService'.\nTry correcting the name to the name of an existing method, or defining a method named 'debugPrint'.",
-	"source": "dart",
-	"startLineNumber": 206,
-	"startColumn": 7,
-	"endLineNumber": 206,
-	"endColumn": 17
-},{
-	"resource": "/C:/Users/Administrator/all_server/lib/services/notification_service.dart",
-	"owner": "_generated_diagnostic_collection_name_#2",
-	"code": {
-		"value": "return_of_invalid_type",
-		"target": {
-			"$mid": 1,
-			"path": "/diagnostics/return_of_invalid_type",
-			"scheme": "https",
-			"authority": "dart.dev"
-		}
-	},
-	"severity": 8,
-	"message": "A value of type 'int?' can't be returned from the method 'getUnreadNotificationCount' because it has a return type of 'Future<int>'.",
-	"source": "dart",
-	"startLineNumber": 223,
-	"startColumn": 14,
-	"endLineNumber": 223,
-	"endColumn": 33
-},{
-	"resource": "/C:/Users/Administrator/all_server/lib/services/notification_service.dart",
-	"owner": "_generated_diagnostic_collection_name_#2",
-	"code": {
-		"value": "undefined_method",
-		"target": {
-			"$mid": 1,
-			"path": "/diagnostics/undefined_method",
-			"scheme": "https",
-			"authority": "dart.dev"
-		}
-	},
-	"severity": 8,
-	"message": "The method 'debugPrint' isn't defined for the type 'NotificationService'.\nTry correcting the name to the name of an existing method, or defining a method named 'debugPrint'.",
-	"source": "dart",
-	"startLineNumber": 225,
-	"startColumn": 7,
-	"endLineNumber": 225,
-	"endColumn": 17
-},{
-	"resource": "/C:/Users/Administrator/all_server/lib/services/notification_service.dart",
-	"owner": "_generated_diagnostic_collection_name_#2",
-	"code": {
-		"value": "undefined_method",
-		"target": {
-			"$mid": 1,
-			"path": "/diagnostics/undefined_method",
-			"scheme": "https",
-			"authority": "dart.dev"
-		}
-	},
-	"severity": 8,
-	"message": "The method 'debugPrint' isn't defined for the type 'NotificationService'.\nTry correcting the name to the name of an existing method, or defining a method named 'debugPrint'.",
-	"source": "dart",
-	"startLineNumber": 411,
-	"startColumn": 7,
-	"endLineNumber": 411,
-	"endColumn": 17
-},{
-	"resource": "/C:/Users/Administrator/all_server/lib/services/notification_service.dart",
-	"owner": "_generated_diagnostic_collection_name_#2",
-	"code": {
-		"value": "unused_import",
-		"target": {
-			"$mid": 1,
-			"path": "/diagnostics/unused_import",
-			"scheme": "https",
-			"authority": "dart.dev"
-		}
-	},
-	"severity": 4,
-	"message": "Unused import: 'dart:convert'.\nTry removing the import directive.",
-	"source": "dart",
-	"startLineNumber": 4,
-	"startColumn": 8,
-	"endLineNumber": 4,
-	"endColumn": 22
-},{
-	"resource": "/C:/Users/Administrator/all_server/lib/services/password_reset_service.dart",
-	"owner": "_generated_diagnostic_collection_name_#2",
-	"code": {
-		"value": "const_initialized_with_non_constant_value",
-		"target": {
-			"$mid": 1,
-			"path": "/diagnostics/const_initialized_with_non_constant_value",
-			"scheme": "https",
-			"authority": "dart.dev"
-		}
-	},
-	"severity": 8,
-	"message": "Const variables must be initialized with a constant value.\nTry changing the initializer to be a constant expression.",
-	"source": "dart",
-	"startLineNumber": 7,
-	"startColumn": 37,
-	"endLineNumber": 7,
-	"endColumn": 58
-},{
-	"resource": "/C:/Users/Administrator/all_server/lib/services/password_reset_service.dart",
-	"owner": "_generated_diagnostic_collection_name_#2",
-	"code": {
-		"value": "const_initialized_with_non_constant_value",
-		"target": {
-			"$mid": 1,
-			"path": "/diagnostics/const_initialized_with_non_constant_value",
-			"scheme": "https",
-			"authority": "dart.dev"
-		}
-	},
-	"severity": 8,
-	"message": "Const variables must be initialized with a constant value.\nTry changing the initializer to be a constant expression.",
-	"source": "dart",
-	"startLineNumber": 8,
-	"startColumn": 47,
-	"endLineNumber": 8,
-	"endColumn": 73
-},{
-	"resource": "/C:/Users/Administrator/all_server/lib/services/password_reset_service.dart",
-	"owner": "_generated_diagnostic_collection_name_#2",
-	"code": {
-		"value": "unused_field",
-		"target": {
-			"$mid": 1,
-			"path": "/diagnostics/unused_field",
-			"scheme": "https",
-			"authority": "dart.dev"
-		}
-	},
-	"severity": 4,
-	"message": "The value of the field '_storage' isn't used.\nTry removing the field, or using it.",
-	"source": "dart",
-	"startLineNumber": 9,
-	"startColumn": 37,
-	"endLineNumber": 9,
-	"endColumn": 45
-},{
-	"resource": "/C:/Users/Administrator/all_server/lib/services/password_reset_service.dart",
-	"owner": "_generated_diagnostic_collection_name_#2",
-	"code": {
-		"value": "deprecated_member_use",
-		"target": {
-			"$mid": 1,
-			"path": "/diagnostics/deprecated_member_use",
-			"scheme": "https",
-			"authority": "dart.dev"
-		}
-	},
-	"severity": 2,
-	"message": "'fetchSignInMethodsForEmail' is deprecated and shouldn't be used. fetchSignInMethodsForEmail() has been deprecated. Migrating off of this method is recommended as a security best-practice. Learn more in the Identity Platform documentation:  https://cloud.google.com/identity-platform/docs/admin/email-enumeration-protection.\nTry replacing the use of the deprecated member with the replacement.",
-	"source": "dart",
-	"startLineNumber": 89,
-	"startColumn": 42,
-	"endLineNumber": 89,
-	"endColumn": 68,
-	"tags": [
-		2
-	]
-},{
-	"resource": "/C:/Users/Administrator/all_server/lib/services/profile_service.dart",
-	"owner": "_generated_diagnostic_collection_name_#2",
-	"code": {
-		"value": "missing_required_argument",
-		"target": {
-			"$mid": 1,
-			"path": "/diagnostics/missing_required_argument",
-			"scheme": "https",
-			"authority": "dart.dev"
-		}
-	},
-	"severity": 8,
-	"message": "The named parameter 'id' is required, but there's no corresponding argument.\nTry adding the required argument.",
-	"source": "dart",
-	"startLineNumber": 42,
-	"startColumn": 27,
-	"endLineNumber": 42,
-	"endColumn": 38
-},{
-	"resource": "/C:/Users/Administrator/all_server/lib/services/profile_service.dart",
-	"owner": "_generated_diagnostic_collection_name_#2",
-	"code": {
-		"value": "undefined_named_parameter",
-		"target": {
-			"$mid": 1,
-			"path": "/diagnostics/undefined_named_parameter",
-			"scheme": "https",
-			"authority": "dart.dev"
-		}
-	},
-	"severity": 8,
-	"message": "The named parameter 'uid' isn't defined.\nTry correcting the name to an existing named parameter's name, or defining a named parameter with the name 'uid'.",
-	"source": "dart",
-	"startLineNumber": 43,
-	"startColumn": 9,
-	"endLineNumber": 43,
-	"endColumn": 12
-},{
-	"resource": "/C:/Users/Administrator/all_server/lib/services/profile_service.dart",
+	"resource": "/C:/Users/Administrator/all_server/lib/pages/settings_page.dart",
 	"owner": "_generated_diagnostic_collection_name_#2",
 	"code": {
 		"value": "undefined_named_parameter",
@@ -1455,11 +788,125 @@
 	"severity": 8,
 	"message": "The named parameter 'displayName' isn't defined.\nTry correcting the name to an existing named parameter's name, or defining a named parameter with the name 'displayName'.",
 	"source": "dart",
-	"startLineNumber": 45,
+	"startLineNumber": 133,
 	"startColumn": 9,
-	"endLineNumber": 45,
+	"endLineNumber": 133,
 	"endColumn": 20
 },{
+	"resource": "/C:/Users/Administrator/all_server/lib/pages/settings_page.dart",
+	"owner": "_generated_diagnostic_collection_name_#2",
+	"code": {
+		"value": "use_build_context_synchronously",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostics/use_build_context_synchronously",
+			"scheme": "https",
+			"authority": "dart.dev"
+		}
+	},
+	"severity": 2,
+	"message": "Don't use 'BuildContext's across async gaps.\nTry rewriting the code to not use the 'BuildContext', or guard the use with a 'mounted' check.",
+	"source": "dart",
+	"startLineNumber": 64,
+	"startColumn": 26,
+	"endLineNumber": 64,
+	"endColumn": 33
+},{
+	"resource": "/C:/Users/Administrator/all_server/lib/services/admin_service.dart",
+	"owner": "_generated_diagnostic_collection_name_#2",
+	"code": {
+		"value": "instance_access_to_static_member",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostics/instance_access_to_static_member",
+			"scheme": "https",
+			"authority": "dart.dev"
+		}
+	},
+	"severity": 8,
+	"message": "The static method 'sendNotificationToUser' can't be accessed through an instance.\nTry using the class 'NotificationService' to access the method.",
+	"source": "dart",
+	"startLineNumber": 48,
+	"startColumn": 34,
+	"endLineNumber": 48,
+	"endColumn": 56
+},{
+	"resource": "/C:/Users/Administrator/all_server/lib/services/admin_service.dart",
+	"owner": "_generated_diagnostic_collection_name_#2",
+	"code": {
+		"value": "instance_access_to_static_member",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostics/instance_access_to_static_member",
+			"scheme": "https",
+			"authority": "dart.dev"
+		}
+	},
+	"severity": 8,
+	"message": "The static method 'sendNotificationToUser' can't be accessed through an instance.\nTry using the class 'NotificationService' to access the method.",
+	"source": "dart",
+	"startLineNumber": 77,
+	"startColumn": 34,
+	"endLineNumber": 77,
+	"endColumn": 56
+},{
+	"resource": "/C:/Users/Administrator/all_server/lib/services/admin_service.dart",
+	"owner": "_generated_diagnostic_collection_name_#2",
+	"code": {
+		"value": "instance_access_to_static_member",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostics/instance_access_to_static_member",
+			"scheme": "https",
+			"authority": "dart.dev"
+		}
+	},
+	"severity": 8,
+	"message": "The static method 'sendNotificationToUser' can't be accessed through an instance.\nTry using the class 'NotificationService' to access the method.",
+	"source": "dart",
+	"startLineNumber": 106,
+	"startColumn": 34,
+	"endLineNumber": 106,
+	"endColumn": 56
+},{
+	"resource": "/C:/Users/Administrator/all_server/lib/services/admin_service.dart",
+	"owner": "_generated_diagnostic_collection_name_#2",
+	"code": {
+		"value": "instance_access_to_static_member",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostics/instance_access_to_static_member",
+			"scheme": "https",
+			"authority": "dart.dev"
+		}
+	},
+	"severity": 8,
+	"message": "The static method 'sendNotificationToUser' can't be accessed through an instance.\nTry using the class 'NotificationService' to access the method.",
+	"source": "dart",
+	"startLineNumber": 134,
+	"startColumn": 34,
+	"endLineNumber": 134,
+	"endColumn": 56
+},{
+	"resource": "/C:/Users/Administrator/all_server/lib/services/admin_service.dart",
+	"owner": "_generated_diagnostic_collection_name_#2",
+	"code": {
+		"value": "instance_access_to_static_member",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostics/instance_access_to_static_member",
+			"scheme": "https",
+			"authority": "dart.dev"
+		}
+	},
+	"severity": 8,
+	"message": "The static method 'sendNotificationToUser' can't be accessed through an instance.\nTry using the class 'NotificationService' to access the method.",
+	"source": "dart",
+	"startLineNumber": 194,
+	"startColumn": 36,
+	"endLineNumber": 194,
+	"endColumn": 58
+},{
 	"resource": "/C:/Users/Administrator/all_server/lib/services/provider_service.dart",
 	"owner": "_generated_diagnostic_collection_name_#2",
 	"code": {
@@ -1474,48 +921,10 @@
 	"severity": 8,
 	"message": "Instance members can't be accessed from a static method.\nTry removing the reference to the instance member, or removing the keyword 'static' from the method.",
 	"source": "dart",
-	"startLineNumber": 402,
-	"startColumn": 25,
-	"endLineNumber": 402,
-	"endColumn": 35
-},{
-	"resource": "/C:/Users/Administrator/all_server/lib/services/provider_service.dart",
-	"owner": "_generated_diagnostic_collection_name_#2",
-	"code": {
-		"value": "argument_type_not_assignable",
-		"target": {
-			"$mid": 1,
-			"path": "/diagnostics/argument_type_not_assignable",
-			"scheme": "https",
-			"authority": "dart.dev"
-		}
-	},
-	"severity": 8,
-	"message": "The argument type 'String' can't be assigned to the parameter type 'Map<String, dynamic>'. ",
-	"source": "dart",
-	"startLineNumber": 404,
-	"startColumn": 33,
-	"endLineNumber": 404,
-	"endColumn": 39
-},{
-	"resource": "/C:/Users/Administrator/all_server/lib/services/provider_service.dart",
-	"owner": "_generated_diagnostic_collection_name_#2",
-	"code": {
-		"value": "argument_type_not_assignable",
-		"target": {
-			"$mid": 1,
-			"path": "/diagnostics/argument_type_not_assignable",
-			"scheme": "https",
-			"authority": "dart.dev"
-		}
-	},
-	"severity": 8,
-	"message": "The argument type 'Map<String, dynamic>' can't be assigned to the parameter type 'String'. ",
-	"source": "dart",
-	"startLineNumber": 404,
-	"startColumn": 41,
-	"endLineNumber": 404,
-	"endColumn": 75
+	"startLineNumber": 96,
+	"startColumn": 32,
+	"endLineNumber": 96,
+	"endColumn": 44
 },{
 	"resource": "/C:/Users/Administrator/all_server/lib/services/provider_service.dart",
 	"owner": "_generated_diagnostic_collection_name_#2",
@@ -1531,29 +940,48 @@
 	"severity": 8,
 	"message": "Instance members can't be accessed from a static method.\nTry removing the reference to the instance member, or removing the keyword 'static' from the method.",
 	"source": "dart",
-	"startLineNumber": 420,
-	"startColumn": 21,
-	"endLineNumber": 420,
-	"endColumn": 31
-},{
-	"resource": "/C:/Users/Administrator/all_server/lib/services/provider_service.dart",
-	"owner": "_generated_diagnostic_collection_name_#2",
-	"code": {
-		"value": "instance_member_access_from_static",
-		"target": {
-			"$mid": 1,
-			"path": "/diagnostics/instance_member_access_from_static",
-			"scheme": "https",
-			"authority": "dart.dev"
-		}
-	},
-	"severity": 8,
-	"message": "Instance members can't be accessed from a static method.\nTry removing the reference to the instance member, or removing the keyword 'static' from the method.",
-	"source": "dart",
-	"startLineNumber": 428,
+	"startLineNumber": 101,
 	"startColumn": 31,
-	"endLineNumber": 428,
-	"endColumn": 41
+	"endLineNumber": 101,
+	"endColumn": 43
+},{
+	"resource": "/C:/Users/Administrator/all_server/lib/services/provider_service.dart",
+	"owner": "_generated_diagnostic_collection_name_#2",
+	"code": {
+		"value": "argument_type_not_assignable",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostics/argument_type_not_assignable",
+			"scheme": "https",
+			"authority": "dart.dev"
+		}
+	},
+	"severity": 8,
+	"message": "The argument type 'String' can't be assigned to the parameter type 'Map<String, dynamic>'. ",
+	"source": "dart",
+	"startLineNumber": 404,
+	"startColumn": 33,
+	"endLineNumber": 404,
+	"endColumn": 39
+},{
+	"resource": "/C:/Users/Administrator/all_server/lib/services/provider_service.dart",
+	"owner": "_generated_diagnostic_collection_name_#2",
+	"code": {
+		"value": "argument_type_not_assignable",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostics/argument_type_not_assignable",
+			"scheme": "https",
+			"authority": "dart.dev"
+		}
+	},
+	"severity": 8,
+	"message": "The argument type 'Map<String, dynamic>' can't be assigned to the parameter type 'String'. ",
+	"source": "dart",
+	"startLineNumber": 404,
+	"startColumn": 41,
+	"endLineNumber": 404,
+	"endColumn": 75
 },{
 	"resource": "/C:/Users/Administrator/all_server/lib/services/provider_service.dart",
 	"owner": "_generated_diagnostic_collection_name_#2",
@@ -1592,25 +1020,6 @@
 	"startColumn": 41,
 	"endLineNumber": 437,
 	"endColumn": 75
-},{
-	"resource": "/C:/Users/Administrator/all_server/lib/services/provider_service.dart",
-	"owner": "_generated_diagnostic_collection_name_#2",
-	"code": {
-		"value": "instance_member_access_from_static",
-		"target": {
-			"$mid": 1,
-			"path": "/diagnostics/instance_member_access_from_static",
-			"scheme": "https",
-			"authority": "dart.dev"
-		}
-	},
-	"severity": 8,
-	"message": "Instance members can't be accessed from a static method.\nTry removing the reference to the instance member, or removing the keyword 'static' from the method.",
-	"source": "dart",
-	"startLineNumber": 455,
-	"startColumn": 35,
-	"endLineNumber": 455,
-	"endColumn": 45
 },{
 	"resource": "/C:/Users/Administrator/all_server/lib/services/provider_service.dart",
 	"owner": "_generated_diagnostic_collection_name_#2",
@@ -1824,25 +1233,6 @@
 	"resource": "/C:/Users/Administrator/all_server/lib/services/provider_service.dart",
 	"owner": "_generated_diagnostic_collection_name_#2",
 	"code": {
-		"value": "instance_member_access_from_static",
-		"target": {
-			"$mid": 1,
-			"path": "/diagnostics/instance_member_access_from_static",
-			"scheme": "https",
-			"authority": "dart.dev"
-		}
-	},
-	"severity": 8,
-	"message": "Instance members can't be accessed from a static method.\nTry removing the reference to the instance member, or removing the keyword 'static' from the method.",
-	"source": "dart",
-	"startLineNumber": 509,
-	"startColumn": 21,
-	"endLineNumber": 509,
-	"endColumn": 31
-},{
-	"resource": "/C:/Users/Administrator/all_server/lib/services/provider_service.dart",
-	"owner": "_generated_diagnostic_collection_name_#2",
-	"code": {
 		"value": "argument_type_not_assignable",
 		"target": {
 			"$mid": 1,
@@ -1888,25 +1278,6 @@
 	"startColumn": 33,
 	"endLineNumber": 530,
 	"endColumn": 48
-},{
-	"resource": "/C:/Users/Administrator/all_server/lib/services/provider_service.dart",
-	"owner": "_generated_diagnostic_collection_name_#2",
-	"code": {
-		"value": "instance_member_access_from_static",
-		"target": {
-			"$mid": 1,
-			"path": "/diagnostics/instance_member_access_from_static",
-			"scheme": "https",
-			"authority": "dart.dev"
-		}
-	},
-	"severity": 8,
-	"message": "Instance members can't be accessed from a static method.\nTry removing the reference to the instance member, or removing the keyword 'static' from the method.",
-	"source": "dart",
-	"startLineNumber": 537,
-	"startColumn": 24,
-	"endLineNumber": 537,
-	"endColumn": 34
 },{
 	"resource": "/C:/Users/Administrator/all_server/lib/services/provider_service.dart",
 	"owner": "_generated_diagnostic_collection_name_#2",
@@ -1987,249 +1358,21 @@
 	"resource": "/C:/Users/Administrator/all_server/lib/services/provider_service.dart",
 	"owner": "_generated_diagnostic_collection_name_#2",
 	"code": {
-		"value": "undefined_getter",
+		"value": "missing_required_argument",
 		"target": {
 			"$mid": 1,
-			"path": "/diagnostics/undefined_getter",
+			"path": "/diagnostics/missing_required_argument",
 			"scheme": "https",
 			"authority": "dart.dev"
 		}
 	},
 	"severity": 8,
-	"message": "The getter 'responseRate' isn't defined for the type 'Provider'.\nTry importing the library that defines 'responseRate', correcting the name to the name of an existing getter, or defining a getter or field named 'responseRate'.",
-	"source": "dart",
-	"startLineNumber": 627,
-	"startColumn": 34,
-	"endLineNumber": 627,
-	"endColumn": 46
-},{
-	"resource": "/C:/Users/Administrator/all_server/lib/services/provider_service.dart",
-	"owner": "_generated_diagnostic_collection_name_#2",
-	"code": {
-		"value": "undefined_getter",
-		"target": {
-			"$mid": 1,
-			"path": "/diagnostics/undefined_getter",
-			"scheme": "https",
-			"authority": "dart.dev"
-		}
-	},
-	"severity": 8,
-	"message": "The getter 'completionRate' isn't defined for the type 'Provider'.\nTry importing the library that defines 'completionRate', correcting the name to the name of an existing getter, or defining a getter or field named 'completionRate'.",
-	"source": "dart",
-	"startLineNumber": 628,
-	"startColumn": 36,
-	"endLineNumber": 628,
-	"endColumn": 50
-},{
-	"resource": "/C:/Users/Administrator/all_server/lib/services/provider_service.dart",
-	"owner": "_generated_diagnostic_collection_name_#2",
-	"code": {
-		"value": "instance_member_access_from_static",
-		"target": {
-			"$mid": 1,
-			"path": "/diagnostics/instance_member_access_from_static",
-			"scheme": "https",
-			"authority": "dart.dev"
-		}
-	},
-	"severity": 8,
-	"message": "Instance members can't be accessed from a static method.\nTry removing the reference to the instance member, or removing the keyword 'static' from the method.",
-	"source": "dart",
-	"startLineNumber": 642,
-	"startColumn": 13,
-	"endLineNumber": 642,
-	"endColumn": 23
-},{
-	"resource": "/C:/Users/Administrator/all_server/lib/services/provider_service.dart",
-	"owner": "_generated_diagnostic_collection_name_#2",
-	"code": {
-		"value": "instance_member_access_from_static",
-		"target": {
-			"$mid": 1,
-			"path": "/diagnostics/instance_member_access_from_static",
-			"scheme": "https",
-			"authority": "dart.dev"
-		}
-	},
-	"severity": 8,
-	"message": "Instance members can't be accessed from a static method.\nTry removing the reference to the instance member, or removing the keyword 'static' from the method.",
-	"source": "dart",
-	"startLineNumber": 661,
-	"startColumn": 13,
-	"endLineNumber": 661,
-	"endColumn": 23
-},{
-	"resource": "/C:/Users/Administrator/all_server/lib/services/provider_service.dart",
-	"owner": "_generated_diagnostic_collection_name_#2",
-	"code": {
-		"value": "undefined_getter",
-		"target": {
-			"$mid": 1,
-			"path": "/diagnostics/undefined_getter",
-			"scheme": "https",
-			"authority": "dart.dev"
-		}
-	},
-	"severity": 8,
-	"message": "The getter 'id' isn't defined for the type 'ServiceOffering'.\nTry importing the library that defines 'id', correcting the name to the name of an existing getter, or defining a getter or field named 'id'.",
-	"source": "dart",
-	"startLineNumber": 687,
-	"startColumn": 21,
-	"endLineNumber": 687,
-	"endColumn": 23
-},{
-	"resource": "/C:/Users/Administrator/all_server/lib/services/provider_service.dart",
-	"owner": "_generated_diagnostic_collection_name_#2",
-	"code": {
-		"value": "undefined_method",
-		"target": {
-			"$mid": 1,
-			"path": "/diagnostics/undefined_method",
-			"scheme": "https",
-			"authority": "dart.dev"
-		}
-	},
-	"severity": 8,
-	"message": "The method 'copyWith' isn't defined for the type 'ServiceOffering'.\nTry correcting the name to the name of an existing method, or defining a method named 'copyWith'.",
+	"message": "The named parameter 'estimatedDuration' is required, but there's no corresponding argument.\nTry adding the required argument.",
 	"source": "dart",
 	"startLineNumber": 688,
-	"startColumn": 26,
+	"startColumn": 18,
 	"endLineNumber": 688,
-	"endColumn": 34
-},{
-	"resource": "/C:/Users/Administrator/all_server/lib/services/provider_service.dart",
-	"owner": "_generated_diagnostic_collection_name_#2",
-	"code": {
-		"value": "undefined_getter",
-		"target": {
-			"$mid": 1,
-			"path": "/diagnostics/undefined_getter",
-			"scheme": "https",
-			"authority": "dart.dev"
-		}
-	},
-	"severity": 8,
-	"message": "The getter 'duration' isn't defined for the type 'ServiceOffering'.\nTry importing the library that defines 'duration', correcting the name to the name of an existing getter, or defining a getter or field named 'duration'.",
-	"source": "dart",
-	"startLineNumber": 692,
-	"startColumn": 54,
-	"endLineNumber": 692,
-	"endColumn": 62
-},{
-	"resource": "/C:/Users/Administrator/all_server/lib/services/provider_service.dart",
-	"owner": "_generated_diagnostic_collection_name_#2",
-	"code": {
-		"value": "instance_member_access_from_static",
-		"target": {
-			"$mid": 1,
-			"path": "/diagnostics/instance_member_access_from_static",
-			"scheme": "https",
-			"authority": "dart.dev"
-		}
-	},
-	"severity": 8,
-	"message": "Instance members can't be accessed from a static method.\nTry removing the reference to the instance member, or removing the keyword 'static' from the method.",
-	"source": "dart",
-	"startLineNumber": 703,
-	"startColumn": 13,
-	"endLineNumber": 703,
-	"endColumn": 23
-},{
-	"resource": "/C:/Users/Administrator/all_server/lib/services/provider_service.dart",
-	"owner": "_generated_diagnostic_collection_name_#2",
-	"code": {
-		"value": "unchecked_use_of_nullable_value",
-		"target": {
-			"$mid": 1,
-			"path": "/diagnostics/unchecked_use_of_nullable_value",
-			"scheme": "https",
-			"authority": "dart.dev"
-		}
-	},
-	"severity": 8,
-	"message": "The method 'toMap' can't be unconditionally invoked because the receiver can be 'null'.\nTry making the call conditional (using '?.') or adding a null check to the target ('!').",
-	"source": "dart",
-	"startLineNumber": 707,
-	"startColumn": 50,
-	"endLineNumber": 707,
-	"endColumn": 55
-},{
-	"resource": "/C:/Users/Administrator/all_server/lib/services/provider_service.dart",
-	"owner": "_generated_diagnostic_collection_name_#2",
-	"code": {
-		"value": "undefined_getter",
-		"target": {
-			"$mid": 1,
-			"path": "/diagnostics/undefined_getter",
-			"scheme": "https",
-			"authority": "dart.dev"
-		}
-	},
-	"severity": 8,
-	"message": "The getter 'id' isn't defined for the type 'ServiceOffering'.\nTry importing the library that defines 'id', correcting the name to the name of an existing getter, or defining a getter or field named 'id'.",
-	"source": "dart",
-	"startLineNumber": 728,
-	"startColumn": 39,
-	"endLineNumber": 728,
-	"endColumn": 41
-},{
-	"resource": "/C:/Users/Administrator/all_server/lib/services/provider_service.dart",
-	"owner": "_generated_diagnostic_collection_name_#2",
-	"code": {
-		"value": "instance_member_access_from_static",
-		"target": {
-			"$mid": 1,
-			"path": "/diagnostics/instance_member_access_from_static",
-			"scheme": "https",
-			"authority": "dart.dev"
-		}
-	},
-	"severity": 8,
-	"message": "Instance members can't be accessed from a static method.\nTry removing the reference to the instance member, or removing the keyword 'static' from the method.",
-	"source": "dart",
-	"startLineNumber": 731,
-	"startColumn": 13,
-	"endLineNumber": 731,
-	"endColumn": 23
-},{
-	"resource": "/C:/Users/Administrator/all_server/lib/services/provider_service.dart",
-	"owner": "_generated_diagnostic_collection_name_#2",
-	"code": {
-		"value": "instance_member_access_from_static",
-		"target": {
-			"$mid": 1,
-			"path": "/diagnostics/instance_member_access_from_static",
-			"scheme": "https",
-			"authority": "dart.dev"
-		}
-	},
-	"severity": 8,
-	"message": "Instance members can't be accessed from a static method.\nTry removing the reference to the instance member, or removing the keyword 'static' from the method.",
-	"source": "dart",
-	"startLineNumber": 747,
-	"startColumn": 35,
-	"endLineNumber": 747,
-	"endColumn": 45
-},{
-	"resource": "/C:/Users/Administrator/all_server/lib/services/provider_service.dart",
-	"owner": "_generated_diagnostic_collection_name_#2",
-	"code": {
-		"value": "instance_member_access_from_static",
-		"target": {
-			"$mid": 1,
-			"path": "/diagnostics/instance_member_access_from_static",
-			"scheme": "https",
-			"authority": "dart.dev"
-		}
-	},
-	"severity": 8,
-	"message": "Instance members can't be accessed from a static method.\nTry removing the reference to the instance member, or removing the keyword 'static' from the method.",
-	"source": "dart",
-	"startLineNumber": 768,
-	"startColumn": 35,
-	"endLineNumber": 768,
-	"endColumn": 45
+	"endColumn": 33
 },{
 	"resource": "/C:/Users/Administrator/all_server/lib/services/provider_service.dart",
 	"owner": "_generated_diagnostic_collection_name_#2",
@@ -2237,181 +1380,10 @@
 	"severity": 8,
 	"message": "Class 'ProviderService' can't define static member '_calculateDistance' and have instance member 'ProviderService._calculateDistance' with the same name.\nTry renaming the member to a name that doesn't conflict.",
 	"source": "dart",
-	"startLineNumber": 788,
+	"startLineNumber": 787,
 	"startColumn": 17,
-	"endLineNumber": 788,
+	"endLineNumber": 787,
 	"endColumn": 35
-},{
-	"resource": "/C:/Users/Administrator/all_server/lib/services/provider_service.dart",
-	"owner": "_generated_diagnostic_collection_name_#2",
-	"code": {
-		"value": "undefined_method",
-		"target": {
-			"$mid": 1,
-			"path": "/diagnostics/undefined_method",
-			"scheme": "https",
-			"authority": "dart.dev"
-		}
-	},
-	"severity": 8,
-	"message": "The method 'sin' isn't defined for the type 'ProviderService'.\nTry correcting the name to the name of an existing method, or defining a method named 'sin'.",
-	"source": "dart",
-	"startLineNumber": 795,
-	"startColumn": 16,
-	"endLineNumber": 795,
-	"endColumn": 19
-},{
-	"resource": "/C:/Users/Administrator/all_server/lib/services/provider_service.dart",
-	"owner": "_generated_diagnostic_collection_name_#2",
-	"code": {
-		"value": "undefined_method",
-		"target": {
-			"$mid": 1,
-			"path": "/diagnostics/undefined_method",
-			"scheme": "https",
-			"authority": "dart.dev"
-		}
-	},
-	"severity": 8,
-	"message": "The method 'sin' isn't defined for the type 'ProviderService'.\nTry correcting the name to the name of an existing method, or defining a method named 'sin'.",
-	"source": "dart",
-	"startLineNumber": 795,
-	"startColumn": 32,
-	"endLineNumber": 795,
-	"endColumn": 35
-},{
-	"resource": "/C:/Users/Administrator/all_server/lib/services/provider_service.dart",
-	"owner": "_generated_diagnostic_collection_name_#2",
-	"code": {
-		"value": "undefined_method",
-		"target": {
-			"$mid": 1,
-			"path": "/diagnostics/undefined_method",
-			"scheme": "https",
-			"authority": "dart.dev"
-		}
-	},
-	"severity": 8,
-	"message": "The method 'cos' isn't defined for the type 'ProviderService'.\nTry correcting the name to the name of an existing method, or defining a method named 'cos'.",
-	"source": "dart",
-	"startLineNumber": 796,
-	"startColumn": 9,
-	"endLineNumber": 796,
-	"endColumn": 12
-},{
-	"resource": "/C:/Users/Administrator/all_server/lib/services/provider_service.dart",
-	"owner": "_generated_diagnostic_collection_name_#2",
-	"code": {
-		"value": "undefined_method",
-		"target": {
-			"$mid": 1,
-			"path": "/diagnostics/undefined_method",
-			"scheme": "https",
-			"authority": "dart.dev"
-		}
-	},
-	"severity": 8,
-	"message": "The method 'cos' isn't defined for the type 'ProviderService'.\nTry correcting the name to the name of an existing method, or defining a method named 'cos'.",
-	"source": "dart",
-	"startLineNumber": 796,
-	"startColumn": 40,
-	"endLineNumber": 796,
-	"endColumn": 43
-},{
-	"resource": "/C:/Users/Administrator/all_server/lib/services/provider_service.dart",
-	"owner": "_generated_diagnostic_collection_name_#2",
-	"code": {
-		"value": "undefined_method",
-		"target": {
-			"$mid": 1,
-			"path": "/diagnostics/undefined_method",
-			"scheme": "https",
-			"authority": "dart.dev"
-		}
-	},
-	"severity": 8,
-	"message": "The method 'sin' isn't defined for the type 'ProviderService'.\nTry correcting the name to the name of an existing method, or defining a method named 'sin'.",
-	"source": "dart",
-	"startLineNumber": 797,
-	"startColumn": 9,
-	"endLineNumber": 797,
-	"endColumn": 12
-},{
-	"resource": "/C:/Users/Administrator/all_server/lib/services/provider_service.dart",
-	"owner": "_generated_diagnostic_collection_name_#2",
-	"code": {
-		"value": "undefined_method",
-		"target": {
-			"$mid": 1,
-			"path": "/diagnostics/undefined_method",
-			"scheme": "https",
-			"authority": "dart.dev"
-		}
-	},
-	"severity": 8,
-	"message": "The method 'sin' isn't defined for the type 'ProviderService'.\nTry correcting the name to the name of an existing method, or defining a method named 'sin'.",
-	"source": "dart",
-	"startLineNumber": 797,
-	"startColumn": 25,
-	"endLineNumber": 797,
-	"endColumn": 28
-},{
-	"resource": "/C:/Users/Administrator/all_server/lib/services/provider_service.dart",
-	"owner": "_generated_diagnostic_collection_name_#2",
-	"code": {
-		"value": "undefined_method",
-		"target": {
-			"$mid": 1,
-			"path": "/diagnostics/undefined_method",
-			"scheme": "https",
-			"authority": "dart.dev"
-		}
-	},
-	"severity": 8,
-	"message": "The method 'atan2' isn't defined for the type 'ProviderService'.\nTry correcting the name to the name of an existing method, or defining a method named 'atan2'.",
-	"source": "dart",
-	"startLineNumber": 799,
-	"startColumn": 20,
-	"endLineNumber": 799,
-	"endColumn": 25
-},{
-	"resource": "/C:/Users/Administrator/all_server/lib/services/provider_service.dart",
-	"owner": "_generated_diagnostic_collection_name_#2",
-	"code": {
-		"value": "undefined_method",
-		"target": {
-			"$mid": 1,
-			"path": "/diagnostics/undefined_method",
-			"scheme": "https",
-			"authority": "dart.dev"
-		}
-	},
-	"severity": 8,
-	"message": "The method 'sqrt' isn't defined for the type 'ProviderService'.\nTry correcting the name to the name of an existing method, or defining a method named 'sqrt'.",
-	"source": "dart",
-	"startLineNumber": 799,
-	"startColumn": 26,
-	"endLineNumber": 799,
-	"endColumn": 30
-},{
-	"resource": "/C:/Users/Administrator/all_server/lib/services/provider_service.dart",
-	"owner": "_generated_diagnostic_collection_name_#2",
-	"code": {
-		"value": "undefined_method",
-		"target": {
-			"$mid": 1,
-			"path": "/diagnostics/undefined_method",
-			"scheme": "https",
-			"authority": "dart.dev"
-		}
-	},
-	"severity": 8,
-	"message": "The method 'sqrt' isn't defined for the type 'ProviderService'.\nTry correcting the name to the name of an existing method, or defining a method named 'sqrt'.",
-	"source": "dart",
-	"startLineNumber": 799,
-	"startColumn": 35,
-	"endLineNumber": 799,
-	"endColumn": 39
 },{
 	"resource": "/C:/Users/Administrator/all_server/lib/services/provider_service.dart",
 	"owner": "_generated_diagnostic_collection_name_#2",
@@ -2465,67 +1437,32 @@
 	"severity": 4,
 	"message": "The declaration '_calculateDistance' isn't referenced.\nTry removing the declaration of '_calculateDistance'.",
 	"source": "dart",
-	"startLineNumber": 788,
+	"startLineNumber": 787,
 	"startColumn": 17,
-	"endLineNumber": 788,
+	"endLineNumber": 787,
 	"endColumn": 35
 },{
-	"resource": "/C:/Users/Administrator/all_server/lib/services/review_service.dart",
+	"resource": "/C:/Users/Administrator/all_server/lib/services/provider_service.dart",
 	"owner": "_generated_diagnostic_collection_name_#2",
-	"code": {
-		"value": "const_initialized_with_non_constant_value",
-		"target": {
-			"$mid": 1,
-			"path": "/diagnostics/const_initialized_with_non_constant_value",
-			"scheme": "https",
-			"authority": "dart.dev"
-		}
-	},
-	"severity": 8,
-	"message": "Const variables must be initialized with a constant value.\nTry changing the initializer to be a constant expression.",
+	"code": "todo",
+	"severity": 2,
+	"message": "TODO: Calculate from actual data",
 	"source": "dart",
-	"startLineNumber": 8,
-	"startColumn": 47,
-	"endLineNumber": 8,
-	"endColumn": 73
+	"startLineNumber": 627,
+	"startColumn": 33,
+	"endLineNumber": 627,
+	"endColumn": 65
 },{
-	"resource": "/C:/Users/Administrator/all_server/lib/services/review_service.dart",
+	"resource": "/C:/Users/Administrator/all_server/lib/services/provider_service.dart",
 	"owner": "_generated_diagnostic_collection_name_#2",
-	"code": {
-		"value": "const_initialized_with_non_constant_value",
-		"target": {
-			"$mid": 1,
-			"path": "/diagnostics/const_initialized_with_non_constant_value",
-			"scheme": "https",
-			"authority": "dart.dev"
-		}
-	},
-	"severity": 8,
-	"message": "Const variables must be initialized with a constant value.\nTry changing the initializer to be a constant expression.",
+	"code": "todo",
+	"severity": 2,
+	"message": "TODO: Calculate from actual data",
 	"source": "dart",
-	"startLineNumber": 9,
-	"startColumn": 37,
-	"endLineNumber": 9,
-	"endColumn": 58
-},{
-	"resource": "/C:/Users/Administrator/all_server/lib/services/review_service.dart",
-	"owner": "_generated_diagnostic_collection_name_#2",
-	"code": {
-		"value": "undefined_identifier",
-		"target": {
-			"$mid": 1,
-			"path": "/diagnostics/undefined_identifier",
-			"scheme": "https",
-			"authority": "dart.dev"
-		}
-	},
-	"severity": 8,
-	"message": "Undefined name 'ReviewStatus'.\nTry correcting the name to one that is defined, or defining the name.",
-	"source": "dart",
-	"startLineNumber": 46,
-	"startColumn": 19,
-	"endLineNumber": 46,
-	"endColumn": 31
+	"startLineNumber": 628,
+	"startColumn": 35,
+	"endLineNumber": 628,
+	"endColumn": 67
 },{
 	"resource": "/C:/Users/Administrator/all_server/lib/services/review_service.dart",
 	"owner": "_generated_diagnostic_collection_name_#2",
@@ -2549,101 +1486,6 @@
 	"resource": "/C:/Users/Administrator/all_server/lib/services/review_service.dart",
 	"owner": "_generated_diagnostic_collection_name_#2",
 	"code": {
-		"value": "undefined_method",
-		"target": {
-			"$mid": 1,
-			"path": "/diagnostics/undefined_method",
-			"scheme": "https",
-			"authority": "dart.dev"
-		}
-	},
-	"severity": 8,
-	"message": "The method 'offset' isn't defined for the type 'Query'.\nTry correcting the name to the name of an existing method, or defining a method named 'offset'.",
-	"source": "dart",
-	"startLineNumber": 94,
-	"startColumn": 73,
-	"endLineNumber": 94,
-	"endColumn": 79
-},{
-	"resource": "/C:/Users/Administrator/all_server/lib/services/review_service.dart",
-	"owner": "_generated_diagnostic_collection_name_#2",
-	"code": {
-		"value": "not_enough_positional_arguments",
-		"target": {
-			"$mid": 1,
-			"path": "/diagnostics/not_enough_positional_arguments",
-			"scheme": "https",
-			"authority": "dart.dev"
-		}
-	},
-	"severity": 8,
-	"message": "2 positional arguments expected by 'fromMap', but 1 found.\nTry adding the missing arguments.",
-	"source": "dart",
-	"startLineNumber": 106,
-	"startColumn": 40,
-	"endLineNumber": 106,
-	"endColumn": 41
-},{
-	"resource": "/C:/Users/Administrator/all_server/lib/services/review_service.dart",
-	"owner": "_generated_diagnostic_collection_name_#2",
-	"code": {
-		"value": "not_enough_positional_arguments",
-		"target": {
-			"$mid": 1,
-			"path": "/diagnostics/not_enough_positional_arguments",
-			"scheme": "https",
-			"authority": "dart.dev"
-		}
-	},
-	"severity": 8,
-	"message": "2 positional arguments expected by 'fromMap', but 1 found.\nTry adding the missing arguments.",
-	"source": "dart",
-	"startLineNumber": 136,
-	"startColumn": 40,
-	"endLineNumber": 136,
-	"endColumn": 41
-},{
-	"resource": "/C:/Users/Administrator/all_server/lib/services/review_service.dart",
-	"owner": "_generated_diagnostic_collection_name_#2",
-	"code": {
-		"value": "undefined_identifier",
-		"target": {
-			"$mid": 1,
-			"path": "/diagnostics/undefined_identifier",
-			"scheme": "https",
-			"authority": "dart.dev"
-		}
-	},
-	"severity": 8,
-	"message": "Undefined name 'ReviewStatus'.\nTry correcting the name to one that is defined, or defining the name.",
-	"source": "dart",
-	"startLineNumber": 295,
-	"startColumn": 23,
-	"endLineNumber": 295,
-	"endColumn": 35
-},{
-	"resource": "/C:/Users/Administrator/all_server/lib/services/review_service.dart",
-	"owner": "_generated_diagnostic_collection_name_#2",
-	"code": {
-		"value": "undefined_identifier",
-		"target": {
-			"$mid": 1,
-			"path": "/diagnostics/undefined_identifier",
-			"scheme": "https",
-			"authority": "dart.dev"
-		}
-	},
-	"severity": 8,
-	"message": "Undefined name 'ReviewStatus'.\nTry correcting the name to one that is defined, or defining the name.",
-	"source": "dart",
-	"startLineNumber": 347,
-	"startColumn": 39,
-	"endLineNumber": 347,
-	"endColumn": 51
-},{
-	"resource": "/C:/Users/Administrator/all_server/lib/services/review_service.dart",
-	"owner": "_generated_diagnostic_collection_name_#2",
-	"code": {
 		"value": "invalid_assignment",
 		"target": {
 			"$mid": 1,
@@ -2655,48 +1497,10 @@
 	"severity": 8,
 	"message": "A value of type 'num' can't be assigned to a variable of type 'int'.\nTry changing the type of the variable, or casting the right-hand type to 'int'.",
 	"source": "dart",
-	"startLineNumber": 371,
+	"startLineNumber": 372,
 	"startColumn": 25,
-	"endLineNumber": 371,
-	"endColumn": 52
-},{
-	"resource": "/C:/Users/Administrator/all_server/lib/services/review_service.dart",
-	"owner": "_generated_diagnostic_collection_name_#2",
-	"code": {
-		"value": "undefined_identifier",
-		"target": {
-			"$mid": 1,
-			"path": "/diagnostics/undefined_identifier",
-			"scheme": "https",
-			"authority": "dart.dev"
-		}
-	},
-	"severity": 8,
-	"message": "Undefined name 'BookingStatus'.\nTry correcting the name to one that is defined, or defining the name.",
-	"source": "dart",
-	"startLineNumber": 412,
-	"startColumn": 36,
-	"endLineNumber": 412,
-	"endColumn": 49
-},{
-	"resource": "/C:/Users/Administrator/all_server/lib/services/review_service.dart",
-	"owner": "_generated_diagnostic_collection_name_#2",
-	"code": {
-		"value": "undefined_identifier",
-		"target": {
-			"$mid": 1,
-			"path": "/diagnostics/undefined_identifier",
-			"scheme": "https",
-			"authority": "dart.dev"
-		}
-	},
-	"severity": 8,
-	"message": "Undefined name 'ReviewStatus'.\nTry correcting the name to one that is defined, or defining the name.",
-	"source": "dart",
-	"startLineNumber": 453,
-	"startColumn": 39,
-	"endLineNumber": 453,
-	"endColumn": 51
+	"endLineNumber": 372,
+	"endColumn": 60
 },{
 	"resource": "/C:/Users/Administrator/all_server/lib/services/review_service.dart",
 	"owner": "_generated_diagnostic_collection_name_#2",
@@ -2717,24 +1521,71 @@
 	"endLineNumber": 9,
 	"endColumn": 34
 },{
-	"resource": "/C:/Users/Administrator/all_server/lib/services/search_service.dart",
+	"resource": "/C:/Users/Administrator/all_server/lib/services/review_service.dart",
 	"owner": "_generated_diagnostic_collection_name_#2",
-	"code": {
-		"value": "const_initialized_with_non_constant_value",
-		"target": {
-			"$mid": 1,
-			"path": "/diagnostics/const_initialized_with_non_constant_value",
-			"scheme": "https",
-			"authority": "dart.dev"
-		}
-	},
-	"severity": 8,
-	"message": "Const variables must be initialized with a constant value.\nTry changing the initializer to be a constant expression.",
+	"code": "todo",
+	"severity": 2,
+	"message": "TODO: Define ReviewStatus enum",
 	"source": "dart",
-	"startLineNumber": 8,
-	"startColumn": 47,
-	"endLineNumber": 8,
-	"endColumn": 73
+	"startLineNumber": 46,
+	"startColumn": 32,
+	"endLineNumber": 46,
+	"endColumn": 62
+},{
+	"resource": "/C:/Users/Administrator/all_server/lib/services/review_service.dart",
+	"owner": "_generated_diagnostic_collection_name_#2",
+	"code": "todo",
+	"severity": 2,
+	"message": "TODO: Implement offset functionality with startAfterDocument",
+	"source": "dart",
+	"startLineNumber": 95,
+	"startColumn": 10,
+	"endLineNumber": 95,
+	"endColumn": 70
+},{
+	"resource": "/C:/Users/Administrator/all_server/lib/services/review_service.dart",
+	"owner": "_generated_diagnostic_collection_name_#2",
+	"code": "todo",
+	"severity": 2,
+	"message": "TODO: Define ReviewStatus enum",
+	"source": "dart",
+	"startLineNumber": 296,
+	"startColumn": 36,
+	"endLineNumber": 296,
+	"endColumn": 66
+},{
+	"resource": "/C:/Users/Administrator/all_server/lib/services/review_service.dart",
+	"owner": "_generated_diagnostic_collection_name_#2",
+	"code": "todo",
+	"severity": 2,
+	"message": "TODO: Define ReviewStatus enum",
+	"source": "dart",
+	"startLineNumber": 348,
+	"startColumn": 52,
+	"endLineNumber": 348,
+	"endColumn": 82
+},{
+	"resource": "/C:/Users/Administrator/all_server/lib/services/review_service.dart",
+	"owner": "_generated_diagnostic_collection_name_#2",
+	"code": "todo",
+	"severity": 2,
+	"message": "TODO: Define BookingStatus enum",
+	"source": "dart",
+	"startLineNumber": 413,
+	"startColumn": 54,
+	"endLineNumber": 413,
+	"endColumn": 85
+},{
+	"resource": "/C:/Users/Administrator/all_server/lib/services/review_service.dart",
+	"owner": "_generated_diagnostic_collection_name_#2",
+	"code": "todo",
+	"severity": 2,
+	"message": "TODO: Define ReviewStatus enum",
+	"source": "dart",
+	"startLineNumber": 454,
+	"startColumn": 52,
+	"endLineNumber": 454,
+	"endColumn": 82
 },{
 	"resource": "/C:/Users/Administrator/all_server/lib/services/search_service.dart",
 	"owner": "_generated_diagnostic_collection_name_#2",
@@ -2750,9 +1601,9 @@
 	"severity": 8,
 	"message": "The argument type 'String' can't be assigned to the parameter type 'Map<String, dynamic>'. ",
 	"source": "dart",
-	"startLineNumber": 76,
+	"startLineNumber": 77,
 	"startColumn": 45,
-	"endLineNumber": 76,
+	"endLineNumber": 77,
 	"endColumn": 51
 },{
 	"resource": "/C:/Users/Administrator/all_server/lib/services/search_service.dart",
@@ -2769,9 +1620,9 @@
 	"severity": 8,
 	"message": "The argument type 'Map<String, dynamic>' can't be assigned to the parameter type 'String'. ",
 	"source": "dart",
-	"startLineNumber": 76,
+	"startLineNumber": 77,
 	"startColumn": 53,
-	"endLineNumber": 76,
+	"endLineNumber": 77,
 	"endColumn": 87
 },{
 	"resource": "/C:/Users/Administrator/all_server/lib/services/search_service.dart",
@@ -2787,53 +1638,34 @@
 	},
 	"severity": 8,
 	"message": "The getter 'latitude' isn't defined for the type 'Map<String, double>'.\nTry importing the library that defines 'latitude', correcting the name to the name of an existing getter, or defining a getter or field named 'latitude'.",
-	"source": "dart",
-	"startLineNumber": 83,
-	"startColumn": 34,
-	"endLineNumber": 83,
-	"endColumn": 42
-},{
-	"resource": "/C:/Users/Administrator/all_server/lib/services/search_service.dart",
-	"owner": "_generated_diagnostic_collection_name_#2",
-	"code": {
-		"value": "undefined_getter",
-		"target": {
-			"$mid": 1,
-			"path": "/diagnostics/undefined_getter",
-			"scheme": "https",
-			"authority": "dart.dev"
-		}
-	},
-	"severity": 8,
-	"message": "The getter 'longitude' isn't defined for the type 'Map<String, double>'.\nTry importing the library that defines 'longitude', correcting the name to the name of an existing getter, or defining a getter or field named 'longitude'.",
 	"source": "dart",
 	"startLineNumber": 84,
 	"startColumn": 34,
 	"endLineNumber": 84,
+	"endColumn": 42
+},{
+	"resource": "/C:/Users/Administrator/all_server/lib/services/search_service.dart",
+	"owner": "_generated_diagnostic_collection_name_#2",
+	"code": {
+		"value": "undefined_getter",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostics/undefined_getter",
+			"scheme": "https",
+			"authority": "dart.dev"
+		}
+	},
+	"severity": 8,
+	"message": "The getter 'longitude' isn't defined for the type 'Map<String, double>'.\nTry importing the library that defines 'longitude', correcting the name to the name of an existing getter, or defining a getter or field named 'longitude'.",
+	"source": "dart",
+	"startLineNumber": 85,
+	"startColumn": 34,
+	"endLineNumber": 85,
 	"endColumn": 43
 },{
 	"resource": "/C:/Users/Administrator/all_server/lib/services/search_service.dart",
 	"owner": "_generated_diagnostic_collection_name_#2",
 	"code": {
-		"value": "undefined_method",
-		"target": {
-			"$mid": 1,
-			"path": "/diagnostics/undefined_method",
-			"scheme": "https",
-			"authority": "dart.dev"
-		}
-	},
-	"severity": 8,
-	"message": "The method 'debugPrint' isn't defined for the type 'SearchService'.\nTry correcting the name to the name of an existing method, or defining a method named 'debugPrint'.",
-	"source": "dart",
-	"startLineNumber": 98,
-	"startColumn": 11,
-	"endLineNumber": 98,
-	"endColumn": 21
-},{
-	"resource": "/C:/Users/Administrator/all_server/lib/services/search_service.dart",
-	"owner": "_generated_diagnostic_collection_name_#2",
-	"code": {
 		"value": "undefined_getter",
 		"target": {
 			"$mid": 1,
@@ -2845,9 +1677,9 @@
 	"severity": 8,
 	"message": "The getter 'latitude' isn't defined for the type 'Map<String, double>'.\nTry importing the library that defines 'latitude', correcting the name to the name of an existing getter, or defining a getter or field named 'latitude'.",
 	"source": "dart",
-	"startLineNumber": 123,
+	"startLineNumber": 124,
 	"startColumn": 25,
-	"endLineNumber": 123,
+	"endLineNumber": 124,
 	"endColumn": 33
 },{
 	"resource": "/C:/Users/Administrator/all_server/lib/services/search_service.dart",
@@ -2864,9 +1696,9 @@
 	"severity": 8,
 	"message": "The getter 'longitude' isn't defined for the type 'Map<String, double>'.\nTry importing the library that defines 'longitude', correcting the name to the name of an existing getter, or defining a getter or field named 'longitude'.",
 	"source": "dart",
-	"startLineNumber": 123,
+	"startLineNumber": 124,
 	"startColumn": 47,
-	"endLineNumber": 123,
+	"endLineNumber": 124,
 	"endColumn": 56
 },{
 	"resource": "/C:/Users/Administrator/all_server/lib/services/search_service.dart",
@@ -2883,9 +1715,9 @@
 	"severity": 8,
 	"message": "The getter 'latitude' isn't defined for the type 'Map<String, double>'.\nTry importing the library that defines 'latitude', correcting the name to the name of an existing getter, or defining a getter or field named 'latitude'.",
 	"source": "dart",
-	"startLineNumber": 127,
+	"startLineNumber": 128,
 	"startColumn": 25,
-	"endLineNumber": 127,
+	"endLineNumber": 128,
 	"endColumn": 33
 },{
 	"resource": "/C:/Users/Administrator/all_server/lib/services/search_service.dart",
@@ -2902,29 +1734,10 @@
 	"severity": 8,
 	"message": "The getter 'longitude' isn't defined for the type 'Map<String, double>'.\nTry importing the library that defines 'longitude', correcting the name to the name of an existing getter, or defining a getter or field named 'longitude'.",
 	"source": "dart",
-	"startLineNumber": 127,
+	"startLineNumber": 128,
 	"startColumn": 47,
-	"endLineNumber": 127,
+	"endLineNumber": 128,
 	"endColumn": 56
-},{
-	"resource": "/C:/Users/Administrator/all_server/lib/services/search_service.dart",
-	"owner": "_generated_diagnostic_collection_name_#2",
-	"code": {
-		"value": "undefined_method",
-		"target": {
-			"$mid": 1,
-			"path": "/diagnostics/undefined_method",
-			"scheme": "https",
-			"authority": "dart.dev"
-		}
-	},
-	"severity": 8,
-	"message": "The method 'debugPrint' isn't defined for the type 'SearchService'.\nTry correcting the name to the name of an existing method, or defining a method named 'debugPrint'.",
-	"source": "dart",
-	"startLineNumber": 137,
-	"startColumn": 7,
-	"endLineNumber": 137,
-	"endColumn": 17
 },{
 	"resource": "/C:/Users/Administrator/all_server/lib/services/search_service.dart",
 	"owner": "_generated_diagnostic_collection_name_#2",
@@ -2940,9 +1753,9 @@
 	"severity": 8,
 	"message": "The argument type 'String' can't be assigned to the parameter type 'Map<String, dynamic>'. ",
 	"source": "dart",
-	"startLineNumber": 165,
+	"startLineNumber": 166,
 	"startColumn": 45,
-	"endLineNumber": 165,
+	"endLineNumber": 166,
 	"endColumn": 51
 },{
 	"resource": "/C:/Users/Administrator/all_server/lib/services/search_service.dart",
@@ -2959,9 +1772,9 @@
 	"severity": 8,
 	"message": "The argument type 'Map<String, dynamic>' can't be assigned to the parameter type 'String'. ",
 	"source": "dart",
-	"startLineNumber": 165,
+	"startLineNumber": 166,
 	"startColumn": 53,
-	"endLineNumber": 165,
+	"endLineNumber": 166,
 	"endColumn": 87
 },{
 	"resource": "/C:/Users/Administrator/all_server/lib/services/search_service.dart",
@@ -2977,200 +1790,10 @@
 	},
 	"severity": 8,
 	"message": "The getter 'latitude' isn't defined for the type 'Map<String, double>'.\nTry importing the library that defines 'latitude', correcting the name to the name of an existing getter, or defining a getter or field named 'latitude'.",
-	"source": "dart",
-	"startLineNumber": 171,
-	"startColumn": 34,
-	"endLineNumber": 171,
-	"endColumn": 42
-},{
-	"resource": "/C:/Users/Administrator/all_server/lib/services/search_service.dart",
-	"owner": "_generated_diagnostic_collection_name_#2",
-	"code": {
-		"value": "undefined_getter",
-		"target": {
-			"$mid": 1,
-			"path": "/diagnostics/undefined_getter",
-			"scheme": "https",
-			"authority": "dart.dev"
-		}
-	},
-	"severity": 8,
-	"message": "The getter 'longitude' isn't defined for the type 'Map<String, double>'.\nTry importing the library that defines 'longitude', correcting the name to the name of an existing getter, or defining a getter or field named 'longitude'.",
 	"source": "dart",
 	"startLineNumber": 172,
 	"startColumn": 34,
 	"endLineNumber": 172,
-	"endColumn": 43
-},{
-	"resource": "/C:/Users/Administrator/all_server/lib/services/search_service.dart",
-	"owner": "_generated_diagnostic_collection_name_#2",
-	"code": {
-		"value": "undefined_method",
-		"target": {
-			"$mid": 1,
-			"path": "/diagnostics/undefined_method",
-			"scheme": "https",
-			"authority": "dart.dev"
-		}
-	},
-	"severity": 8,
-	"message": "The method 'debugPrint' isn't defined for the type 'SearchService'.\nTry correcting the name to the name of an existing method, or defining a method named 'debugPrint'.",
-	"source": "dart",
-	"startLineNumber": 180,
-	"startColumn": 11,
-	"endLineNumber": 180,
-	"endColumn": 21
-},{
-	"resource": "/C:/Users/Administrator/all_server/lib/services/search_service.dart",
-	"owner": "_generated_diagnostic_collection_name_#2",
-	"code": {
-		"value": "undefined_getter",
-		"target": {
-			"$mid": 1,
-			"path": "/diagnostics/undefined_getter",
-			"scheme": "https",
-			"authority": "dart.dev"
-		}
-	},
-	"severity": 8,
-	"message": "The getter 'latitude' isn't defined for the type 'Map<String, double>'.\nTry importing the library that defines 'latitude', correcting the name to the name of an existing getter, or defining a getter or field named 'latitude'.",
-	"source": "dart",
-	"startLineNumber": 191,
-	"startColumn": 23,
-	"endLineNumber": 191,
-	"endColumn": 31
-},{
-	"resource": "/C:/Users/Administrator/all_server/lib/services/search_service.dart",
-	"owner": "_generated_diagnostic_collection_name_#2",
-	"code": {
-		"value": "undefined_getter",
-		"target": {
-			"$mid": 1,
-			"path": "/diagnostics/undefined_getter",
-			"scheme": "https",
-			"authority": "dart.dev"
-		}
-	},
-	"severity": 8,
-	"message": "The getter 'longitude' isn't defined for the type 'Map<String, double>'.\nTry importing the library that defines 'longitude', correcting the name to the name of an existing getter, or defining a getter or field named 'longitude'.",
-	"source": "dart",
-	"startLineNumber": 191,
-	"startColumn": 45,
-	"endLineNumber": 191,
-	"endColumn": 54
-},{
-	"resource": "/C:/Users/Administrator/all_server/lib/services/search_service.dart",
-	"owner": "_generated_diagnostic_collection_name_#2",
-	"code": {
-		"value": "undefined_getter",
-		"target": {
-			"$mid": 1,
-			"path": "/diagnostics/undefined_getter",
-			"scheme": "https",
-			"authority": "dart.dev"
-		}
-	},
-	"severity": 8,
-	"message": "The getter 'latitude' isn't defined for the type 'Map<String, double>'.\nTry importing the library that defines 'latitude', correcting the name to the name of an existing getter, or defining a getter or field named 'latitude'.",
-	"source": "dart",
-	"startLineNumber": 195,
-	"startColumn": 23,
-	"endLineNumber": 195,
-	"endColumn": 31
-},{
-	"resource": "/C:/Users/Administrator/all_server/lib/services/search_service.dart",
-	"owner": "_generated_diagnostic_collection_name_#2",
-	"code": {
-		"value": "undefined_getter",
-		"target": {
-			"$mid": 1,
-			"path": "/diagnostics/undefined_getter",
-			"scheme": "https",
-			"authority": "dart.dev"
-		}
-	},
-	"severity": 8,
-	"message": "The getter 'longitude' isn't defined for the type 'Map<String, double>'.\nTry importing the library that defines 'longitude', correcting the name to the name of an existing getter, or defining a getter or field named 'longitude'.",
-	"source": "dart",
-	"startLineNumber": 195,
-	"startColumn": 45,
-	"endLineNumber": 195,
-	"endColumn": 54
-},{
-	"resource": "/C:/Users/Administrator/all_server/lib/services/search_service.dart",
-	"owner": "_generated_diagnostic_collection_name_#2",
-	"code": {
-		"value": "undefined_method",
-		"target": {
-			"$mid": 1,
-			"path": "/diagnostics/undefined_method",
-			"scheme": "https",
-			"authority": "dart.dev"
-		}
-	},
-	"severity": 8,
-	"message": "The method 'debugPrint' isn't defined for the type 'SearchService'.\nTry correcting the name to the name of an existing method, or defining a method named 'debugPrint'.",
-	"source": "dart",
-	"startLineNumber": 203,
-	"startColumn": 7,
-	"endLineNumber": 203,
-	"endColumn": 17
-},{
-	"resource": "/C:/Users/Administrator/all_server/lib/services/search_service.dart",
-	"owner": "_generated_diagnostic_collection_name_#2",
-	"code": {
-		"value": "argument_type_not_assignable",
-		"target": {
-			"$mid": 1,
-			"path": "/diagnostics/argument_type_not_assignable",
-			"scheme": "https",
-			"authority": "dart.dev"
-		}
-	},
-	"severity": 8,
-	"message": "The argument type 'String' can't be assigned to the parameter type 'Map<String, dynamic>'. ",
-	"source": "dart",
-	"startLineNumber": 229,
-	"startColumn": 45,
-	"endLineNumber": 229,
-	"endColumn": 51
-},{
-	"resource": "/C:/Users/Administrator/all_server/lib/services/search_service.dart",
-	"owner": "_generated_diagnostic_collection_name_#2",
-	"code": {
-		"value": "argument_type_not_assignable",
-		"target": {
-			"$mid": 1,
-			"path": "/diagnostics/argument_type_not_assignable",
-			"scheme": "https",
-			"authority": "dart.dev"
-		}
-	},
-	"severity": 8,
-	"message": "The argument type 'Map<String, dynamic>' can't be assigned to the parameter type 'String'. ",
-	"source": "dart",
-	"startLineNumber": 229,
-	"startColumn": 53,
-	"endLineNumber": 229,
-	"endColumn": 87
-},{
-	"resource": "/C:/Users/Administrator/all_server/lib/services/search_service.dart",
-	"owner": "_generated_diagnostic_collection_name_#2",
-	"code": {
-		"value": "undefined_getter",
-		"target": {
-			"$mid": 1,
-			"path": "/diagnostics/undefined_getter",
-			"scheme": "https",
-			"authority": "dart.dev"
-		}
-	},
-	"severity": 8,
-	"message": "The getter 'latitude' isn't defined for the type 'Map<String, double>'.\nTry importing the library that defines 'latitude', correcting the name to the name of an existing getter, or defining a getter or field named 'latitude'.",
-	"source": "dart",
-	"startLineNumber": 236,
-	"startColumn": 34,
-	"endLineNumber": 236,
 	"endColumn": 42
 },{
 	"resource": "/C:/Users/Administrator/all_server/lib/services/search_service.dart",
@@ -3187,86 +1810,162 @@
 	"severity": 8,
 	"message": "The getter 'longitude' isn't defined for the type 'Map<String, double>'.\nTry importing the library that defines 'longitude', correcting the name to the name of an existing getter, or defining a getter or field named 'longitude'.",
 	"source": "dart",
-	"startLineNumber": 237,
+	"startLineNumber": 173,
 	"startColumn": 34,
-	"endLineNumber": 237,
+	"endLineNumber": 173,
 	"endColumn": 43
 },{
 	"resource": "/C:/Users/Administrator/all_server/lib/services/search_service.dart",
 	"owner": "_generated_diagnostic_collection_name_#2",
 	"code": {
-		"value": "undefined_method",
+		"value": "undefined_getter",
 		"target": {
 			"$mid": 1,
-			"path": "/diagnostics/undefined_method",
+			"path": "/diagnostics/undefined_getter",
 			"scheme": "https",
 			"authority": "dart.dev"
 		}
 	},
 	"severity": 8,
-	"message": "The method 'debugPrint' isn't defined for the type 'SearchService'.\nTry correcting the name to the name of an existing method, or defining a method named 'debugPrint'.",
+	"message": "The getter 'latitude' isn't defined for the type 'Map<String, double>'.\nTry importing the library that defines 'latitude', correcting the name to the name of an existing getter, or defining a getter or field named 'latitude'.",
 	"source": "dart",
-	"startLineNumber": 248,
-	"startColumn": 11,
-	"endLineNumber": 248,
-	"endColumn": 21
+	"startLineNumber": 192,
+	"startColumn": 23,
+	"endLineNumber": 192,
+	"endColumn": 31
 },{
 	"resource": "/C:/Users/Administrator/all_server/lib/services/search_service.dart",
 	"owner": "_generated_diagnostic_collection_name_#2",
 	"code": {
-		"value": "undefined_method",
+		"value": "undefined_getter",
 		"target": {
 			"$mid": 1,
-			"path": "/diagnostics/undefined_method",
+			"path": "/diagnostics/undefined_getter",
 			"scheme": "https",
 			"authority": "dart.dev"
 		}
 	},
 	"severity": 8,
-	"message": "The method 'debugPrint' isn't defined for the type 'SearchService'.\nTry correcting the name to the name of an existing method, or defining a method named 'debugPrint'.",
+	"message": "The getter 'longitude' isn't defined for the type 'Map<String, double>'.\nTry importing the library that defines 'longitude', correcting the name to the name of an existing getter, or defining a getter or field named 'longitude'.",
 	"source": "dart",
-	"startLineNumber": 255,
-	"startColumn": 7,
-	"endLineNumber": 255,
-	"endColumn": 17
+	"startLineNumber": 192,
+	"startColumn": 45,
+	"endLineNumber": 192,
+	"endColumn": 54
 },{
 	"resource": "/C:/Users/Administrator/all_server/lib/services/search_service.dart",
 	"owner": "_generated_diagnostic_collection_name_#2",
 	"code": {
-		"value": "undefined_method",
+		"value": "undefined_getter",
 		"target": {
 			"$mid": 1,
-			"path": "/diagnostics/undefined_method",
+			"path": "/diagnostics/undefined_getter",
 			"scheme": "https",
 			"authority": "dart.dev"
 		}
 	},
 	"severity": 8,
-	"message": "The method 'debugPrint' isn't defined for the type 'SearchService'.\nTry correcting the name to the name of an existing method, or defining a method named 'debugPrint'.",
+	"message": "The getter 'latitude' isn't defined for the type 'Map<String, double>'.\nTry importing the library that defines 'latitude', correcting the name to the name of an existing getter, or defining a getter or field named 'latitude'.",
 	"source": "dart",
-	"startLineNumber": 266,
-	"startColumn": 7,
-	"endLineNumber": 266,
-	"endColumn": 17
+	"startLineNumber": 196,
+	"startColumn": 23,
+	"endLineNumber": 196,
+	"endColumn": 31
 },{
 	"resource": "/C:/Users/Administrator/all_server/lib/services/search_service.dart",
 	"owner": "_generated_diagnostic_collection_name_#2",
 	"code": {
-		"value": "undefined_method",
+		"value": "undefined_getter",
 		"target": {
 			"$mid": 1,
-			"path": "/diagnostics/undefined_method",
+			"path": "/diagnostics/undefined_getter",
 			"scheme": "https",
 			"authority": "dart.dev"
 		}
 	},
 	"severity": 8,
-	"message": "The method 'debugPrint' isn't defined for the type 'SearchService'.\nTry correcting the name to the name of an existing method, or defining a method named 'debugPrint'.",
+	"message": "The getter 'longitude' isn't defined for the type 'Map<String, double>'.\nTry importing the library that defines 'longitude', correcting the name to the name of an existing getter, or defining a getter or field named 'longitude'.",
 	"source": "dart",
-	"startLineNumber": 293,
-	"startColumn": 7,
-	"endLineNumber": 293,
-	"endColumn": 17
+	"startLineNumber": 196,
+	"startColumn": 45,
+	"endLineNumber": 196,
+	"endColumn": 54
+},{
+	"resource": "/C:/Users/Administrator/all_server/lib/services/search_service.dart",
+	"owner": "_generated_diagnostic_collection_name_#2",
+	"code": {
+		"value": "argument_type_not_assignable",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostics/argument_type_not_assignable",
+			"scheme": "https",
+			"authority": "dart.dev"
+		}
+	},
+	"severity": 8,
+	"message": "The argument type 'String' can't be assigned to the parameter type 'Map<String, dynamic>'. ",
+	"source": "dart",
+	"startLineNumber": 230,
+	"startColumn": 45,
+	"endLineNumber": 230,
+	"endColumn": 51
+},{
+	"resource": "/C:/Users/Administrator/all_server/lib/services/search_service.dart",
+	"owner": "_generated_diagnostic_collection_name_#2",
+	"code": {
+		"value": "argument_type_not_assignable",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostics/argument_type_not_assignable",
+			"scheme": "https",
+			"authority": "dart.dev"
+		}
+	},
+	"severity": 8,
+	"message": "The argument type 'Map<String, dynamic>' can't be assigned to the parameter type 'String'. ",
+	"source": "dart",
+	"startLineNumber": 230,
+	"startColumn": 53,
+	"endLineNumber": 230,
+	"endColumn": 87
+},{
+	"resource": "/C:/Users/Administrator/all_server/lib/services/search_service.dart",
+	"owner": "_generated_diagnostic_collection_name_#2",
+	"code": {
+		"value": "undefined_getter",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostics/undefined_getter",
+			"scheme": "https",
+			"authority": "dart.dev"
+		}
+	},
+	"severity": 8,
+	"message": "The getter 'latitude' isn't defined for the type 'Map<String, double>'.\nTry importing the library that defines 'latitude', correcting the name to the name of an existing getter, or defining a getter or field named 'latitude'.",
+	"source": "dart",
+	"startLineNumber": 237,
+	"startColumn": 34,
+	"endLineNumber": 237,
+	"endColumn": 42
+},{
+	"resource": "/C:/Users/Administrator/all_server/lib/services/search_service.dart",
+	"owner": "_generated_diagnostic_collection_name_#2",
+	"code": {
+		"value": "undefined_getter",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostics/undefined_getter",
+			"scheme": "https",
+			"authority": "dart.dev"
+		}
+	},
+	"severity": 8,
+	"message": "The getter 'longitude' isn't defined for the type 'Map<String, double>'.\nTry importing the library that defines 'longitude', correcting the name to the name of an existing getter, or defining a getter or field named 'longitude'.",
+	"source": "dart",
+	"startLineNumber": 238,
+	"startColumn": 34,
+	"endLineNumber": 238,
+	"endColumn": 43
 },{
 	"resource": "/C:/Users/Administrator/all_server/lib/services/search_service.dart",
 	"owner": "_generated_diagnostic_collection_name_#2",
@@ -3282,9 +1981,9 @@
 	"severity": 4,
 	"message": "The receiver can't be null, so the null-aware operator '?.' is unnecessary.\nTry replacing the operator '?.' with '.'.",
 	"source": "dart",
-	"startLineNumber": 320,
+	"startLineNumber": 321,
 	"startColumn": 29,
-	"endLineNumber": 320,
+	"endLineNumber": 321,
 	"endColumn": 31
 },{
 	"resource": "/C:/Users/Administrator/all_server/lib/services/search_service.dart",
@@ -3301,29 +2000,10 @@
 	"severity": 4,
 	"message": "The receiver can't be null, so the null-aware operator '?.' is unnecessary.\nTry replacing the operator '?.' with '.'.",
 	"source": "dart",
-	"startLineNumber": 350,
+	"startLineNumber": 351,
 	"startColumn": 29,
-	"endLineNumber": 350,
+	"endLineNumber": 351,
 	"endColumn": 31
-},{
-	"resource": "/C:/Users/Administrator/all_server/lib/services/two_factor_service.dart",
-	"owner": "_generated_diagnostic_collection_name_#2",
-	"code": {
-		"value": "const_initialized_with_non_constant_value",
-		"target": {
-			"$mid": 1,
-			"path": "/diagnostics/const_initialized_with_non_constant_value",
-			"scheme": "https",
-			"authority": "dart.dev"
-		}
-	},
-	"severity": 8,
-	"message": "Const variables must be initialized with a constant value.\nTry changing the initializer to be a constant expression.",
-	"source": "dart",
-	"startLineNumber": 10,
-	"startColumn": 47,
-	"endLineNumber": 10,
-	"endColumn": 73
 },{
 	"resource": "/C:/Users/Administrator/all_server/lib/services/two_factor_service.dart",
 	"owner": "_generated_diagnostic_collection_name_#2",
@@ -3344,7 +2024,7 @@
 	"endLineNumber": 122,
 	"endColumn": 47
 },{
-	"resource": "/C:/Users/Administrator/all_server/lib/services/two_factor_service.dart",
+	"resource": "/C:/Users/Administrator/all_server/lib/pages/enhanced_register_page.dart",
 	"owner": "_generated_diagnostic_collection_name_#2",
 	"code": {
 		"value": "unused_import",
@@ -3356,14 +2036,14 @@
 		}
 	},
 	"severity": 4,
-	"message": "Unused import: 'package:firebase_auth/firebase_auth.dart'.\nTry removing the import directive.",
+	"message": "Unused import: 'package:all_server/auth.dart'.\nTry removing the import directive.",
 	"source": "dart",
-	"startLineNumber": 6,
+	"startLineNumber": 3,
 	"startColumn": 8,
-	"endLineNumber": 6,
-	"endColumn": 50
+	"endLineNumber": 3,
+	"endColumn": 38
 },{
-	"resource": "/C:/Users/Administrator/all_server/lib/pages/enhanced_login_page.dart",
+	"resource": "/C:/Users/Administrator/all_server/lib/services/booking_service.dart",
 	"owner": "_generated_diagnostic_collection_name_#2",
 	"code": {
 		"value": "unused_import",
@@ -3375,14 +2055,52 @@
 		}
 	},
 	"severity": 4,
-	"message": "Unused import: 'package:all_server/pages/enhanced_register_page.dart'.\nTry removing the import directive.",
+	"message": "Unused import: 'dart:convert'.\nTry removing the import directive.",
 	"source": "dart",
-	"startLineNumber": 7,
+	"startLineNumber": 5,
 	"startColumn": 8,
-	"endLineNumber": 7,
-	"endColumn": 62
+	"endLineNumber": 5,
+	"endColumn": 22
 },{
-	"resource": "/C:/Users/Administrator/all_server/lib/pages/enhanced_login_page.dart",
+	"resource": "/C:/Users/Administrator/all_server/lib/services/booking_service.dart",
+	"owner": "_generated_diagnostic_collection_name_#2",
+	"code": {
+		"value": "unused_field",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostics/unused_field",
+			"scheme": "https",
+			"authority": "dart.dev"
+		}
+	},
+	"severity": 4,
+	"message": "The value of the field '_auth' isn't used.\nTry removing the field, or using it.",
+	"source": "dart",
+	"startLineNumber": 9,
+	"startColumn": 29,
+	"endLineNumber": 9,
+	"endColumn": 34
+},{
+	"resource": "/C:/Users/Administrator/all_server/lib/services/booking_service.dart",
+	"owner": "_generated_diagnostic_collection_name_#2",
+	"code": {
+		"value": "equal_keys_in_map",
+		"target": {
+			"$mid": 1,
+			"path": "/diagnostics/equal_keys_in_map",
+			"scheme": "https",
+			"authority": "dart.dev"
+		}
+	},
+	"severity": 4,
+	"message": "Two keys in a map literal shouldn't be equal.\nChange or remove the duplicate key.",
+	"source": "dart",
+	"startLineNumber": 52,
+	"startColumn": 9,
+	"endLineNumber": 52,
+	"endColumn": 20
+},{
+	"resource": "/C:/Users/Administrator/all_server/lib/services/password_reset_service.dart",
 	"owner": "_generated_diagnostic_collection_name_#2",
 	"code": {
 		"value": "unused_import",
@@ -3394,14 +2112,14 @@
 		}
 	},
 	"severity": 4,
-	"message": "Unused import: 'package:all_server/pages/two_factor_verification_page.dart'.\nTry removing the import directive.",
+	"message": "Unused import: 'package:flutter_secure_storage/flutter_secure_storage.dart'.\nTry removing the import directive.",
 	"source": "dart",
-	"startLineNumber": 8,
+	"startLineNumber": 3,
 	"startColumn": 8,
-	"endLineNumber": 8,
+	"endLineNumber": 3,
 	"endColumn": 68
 },{
-	"resource": "/C:/Users/Administrator/all_server/lib/pages/enhanced_login_page.dart",
+	"resource": "/C:/Users/Administrator/all_server/lib/services/password_reset_service.dart",
 	"owner": "_generated_diagnostic_collection_name_#2",
 	"code": {
 		"value": "deprecated_member_use",
@@ -3413,59 +2131,15 @@
 		}
 	},
 	"severity": 2,
-	"message": "'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss.\nTry replacing the use of the deprecated member with the replacement.",
+	"message": "'fetchSignInMethodsForEmail' is deprecated and shouldn't be used. fetchSignInMethodsForEmail() has been deprecated. Migrating off of this method is recommended as a security best-practice. Learn more in the Identity Platform documentation:  https://cloud.google.com/identity-platform/docs/admin/email-enumeration-protection.\nTry replacing the use of the deprecated member with the replacement.",
 	"source": "dart",
-	"startLineNumber": 266,
-	"startColumn": 52,
-	"endLineNumber": 266,
-	"endColumn": 63,
+	"startLineNumber": 90,
+	"startColumn": 42,
+	"endLineNumber": 90,
+	"endColumn": 68,
 	"tags": [
 		2
 	]
-},{
-	"resource": "/C:/Users/Administrator/all_server/lib/pages/enhanced_login_page.dart",
-	"owner": "_generated_diagnostic_collection_name_#2",
-	"code": {
-		"value": "deprecated_member_use",
-		"target": {
-			"$mid": 1,
-			"path": "/diagnostics/deprecated_member_use",
-			"scheme": "https",
-			"authority": "dart.dev"
-		}
-	},
-	"severity": 2,
-	"message": "'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss.\nTry replacing the use of the deprecated member with the replacement.",
-	"source": "dart",
-	"startLineNumber": 309,
-	"startColumn": 47,
-	"endLineNumber": 309,
-	"endColumn": 58,
-	"tags": [
-		2
-	]
-},{
-	"resource": "/C:/Users/Administrator/all_server/lib/pages/enhanced_login_page.dart",
-	"owner": "_generated_diagnostic_collection_name_#2",
-	"code": "todo",
-	"severity": 2,
-	"message": "TODO: Implement Google Sign In",
-	"source": "dart",
-	"startLineNumber": 544,
-	"startColumn": 34,
-	"endLineNumber": 544,
-	"endColumn": 64
-},{
-	"resource": "/C:/Users/Administrator/all_server/lib/pages/enhanced_login_page.dart",
-	"owner": "_generated_diagnostic_collection_name_#2",
-	"code": "todo",
-	"severity": 2,
-	"message": "TODO: Implement Facebook Sign In",
-	"source": "dart",
-	"startLineNumber": 574,
-	"startColumn": 34,
-	"endLineNumber": 574,
-	"endColumn": 66
 },{
 	"resource": "/C:/Users/Administrator/all_server/pubspec.yaml",
 	"owner": "_generated_diagnostic_collection_name_#2",
@@ -3538,7 +2212,7 @@
 	"endLineNumber": 319,
 	"endColumn": 45
 },{
-	"resource": "/C:/Users/Administrator/all_server/lib/pages/settings_page.dart",
+	"resource": "/C:/Users/Administrator/all_server/lib/pages/two_factor_verification_page.dart",
 	"owner": "_generated_diagnostic_collection_name_#2",
 	"code": {
 		"value": "use_build_context_synchronously",
@@ -3552,8 +2226,8 @@
 	"severity": 2,
 	"message": "Don't use 'BuildContext's across async gaps.\nTry rewriting the code to not use the 'BuildContext', or guard the use with a 'mounted' check.",
 	"source": "dart",
-	"startLineNumber": 64,
-	"startColumn": 26,
-	"endLineNumber": 64,
-	"endColumn": 33
+	"startLineNumber": 118,
+	"startColumn": 28,
+	"endLineNumber": 118,
+	"endColumn": 35
 }]
