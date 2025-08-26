@@ -1,3 +1,27 @@
+C:\Users\Administrator\all_server>flutter run -d chrome
+Launching lib\main.dart on Chrome in debug mode...
+../AppData/Local/Pub/Cache/hosted/pub.dev/image_cropper_for_web-3.0.0/lib/image_cropper_for_web.dart:134:8: Error:
+Undefined name 'platformViewRegistry'.
+    ui.platformViewRegistry
+       ^^^^^^^^^^^^^^^^^^^^
+../AppData/Local/Pub/Cache/hosted/pub.dev/image_cropper_platform_interface-5.0.0/lib/src/models/cropped_file/html.dart:3
+2:38: Error: The method 'UnmodifiableUint8ListView' isn't defined for the class 'CroppedFile'.
+ - 'CroppedFile' is from 'package:image_cropper_platform_interface/src/models/cropped_file/html.dart'
+ ('../AppData/Local/Pub/Cache/hosted/pub.dev/image_cropper_platform_interface-5.0.0/lib/src/models/cropped_file/html.dar
+ t').
+Try correcting the name to the name of an existing method, or defining a method named 'UnmodifiableUint8ListView'.
+      return Future<Uint8List>.value(UnmodifiableUint8ListView(_initBytes!));
+                                     ^^^^^^^^^^^^^^^^^^^^^^^^^
+Waiting for connection from debug service on Chrome...             48.2s
+Failed to compile application.
+
+
+
+
+
+
+
+
 FAILURE: Build failed with an exception.
 
 * What went wrong:
